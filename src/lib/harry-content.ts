@@ -1,3 +1,5 @@
+import { getHarryTopics, type HarrySection, type HarryWing, type HarryTopic as ConfigHarryTopic } from "./harry-config";
+
 // CodeWithHarry course content.
 // Only confirmed videoIds are included; the rest are "TODO" placeholders to
 // be filled in manually from the official playlists. Do NOT invent IDs.
@@ -8,14 +10,11 @@ export type HarryLecture = {
   title: string;
   duration: string;
   topicId: string;
+  section?: HarrySection;
+  wing?: HarryWing;
 };
 
-export type HarryTopic = {
-  id: string;
-  title: string;
-  description: string;
-  emoji: string;
-};
+export type HarryTopic = ConfigHarryTopic;
 
 // ── Progress / last-watched localStorage keys ────────────────────────────────
 
@@ -28,40 +27,9 @@ export const HARRY_DSA_LAST_KEY      = "harry-dsa-last";
 
 // ── Topics ───────────────────────────────────────────────────────────────────
 
-export const HARRY_JAVA_TOPICS: HarryTopic[] = [
-  { id: "java-intro",    title: "Introduction",       description: "Setup, JDK, first program",    emoji: "☕" },
-  { id: "java-vars",     title: "Variables & Types",  description: "Data types, literals, input",  emoji: "📦" },
-  { id: "java-strings",  title: "Strings",            description: "String class and methods",     emoji: "📝" },
-  { id: "java-control",  title: "Control Flow",       description: "if/else, switch, loops",       emoji: "🔁" },
-  { id: "java-arrays",   title: "Arrays",             description: "1D, 2D, for-each loop",        emoji: "🗂️" },
-  { id: "java-methods",  title: "Methods",            description: "Functions, recursion, varargs", emoji: "⚙️" },
-  { id: "java-oop",      title: "OOP",                description: "Classes, constructors, access", emoji: "🎯" },
-  { id: "java-advanced", title: "Advanced Java",      description: "Inheritance, exceptions, collections", emoji: "🚀" },
-];
-
-export const HARRY_CPP_TOPICS: HarryTopic[] = [
-  { id: "cpp-intro",     title: "Introduction",      description: "Setup, first program, basics",       emoji: "⚡" },
-  { id: "cpp-vars",      title: "Variables & Ops",   description: "Types, operators, I/O",              emoji: "📦" },
-  { id: "cpp-control",   title: "Control Flow",      description: "Conditions, loops, patterns",        emoji: "🔁" },
-  { id: "cpp-functions", title: "Functions",         description: "Functions, recursion",               emoji: "⚙️" },
-  { id: "cpp-arrays",    title: "Arrays & Strings",  description: "Arrays, 2D arrays, strings",         emoji: "🗂️" },
-  { id: "cpp-pointers",  title: "Pointers",          description: "Pointers, references, memory",       emoji: "🔗" },
-  { id: "cpp-oop",       title: "OOP in C++",        description: "Classes, inheritance, STL",          emoji: "🎯" },
-];
-
-export const HARRY_DSA_TOPICS: HarryTopic[] = [
-  { id: "dsa-intro",       title: "Complexity & Intro",  description: "Big-O, time/space",              emoji: "📊" },
-  { id: "dsa-arrays",      title: "Arrays & Searching",  description: "Arrays, linear, binary search",  emoji: "📦" },
-  { id: "dsa-sorting",     title: "Sorting",             description: "All major sorting algorithms",   emoji: "🔀" },
-  { id: "dsa-strings",     title: "Strings",             description: "String problems & algorithms",   emoji: "📝" },
-  { id: "dsa-linked-list", title: "Linked List",         description: "Singly, doubly, circular",       emoji: "⛓️" },
-  { id: "dsa-stack-queue", title: "Stack & Queue",       description: "Stack, queue, deque",            emoji: "📚" },
-  { id: "dsa-trees",       title: "Trees",               description: "Binary trees, BST, AVL",         emoji: "🌳" },
-  { id: "dsa-heaps",       title: "Heaps & Hashing",     description: "Heap, HashMap, HashSet",         emoji: "🔷" },
-  { id: "dsa-graphs",      title: "Graphs",              description: "BFS, DFS, Dijkstra, MST",        emoji: "🕸️" },
-  { id: "dsa-dp",          title: "Dynamic Programming", description: "Memoization, tabulation",        emoji: "💡" },
-  { id: "dsa-advanced",    title: "Advanced Topics",     description: "Trie, segment tree, greedy",     emoji: "🏆" },
-];
+export const HARRY_JAVA_TOPICS: HarryTopic[] = getHarryTopics("java");
+export const HARRY_CPP_TOPICS: HarryTopic[] = getHarryTopics("cpp");
+export const HARRY_DSA_TOPICS: HarryTopic[] = getHarryTopics("dsa");
 
 // ── Lectures ─────────────────────────────────────────────────────────────────
 // videoId === "TODO" means it still needs to be filled in by hand from the
