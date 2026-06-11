@@ -1,13 +1,16 @@
 // Server-only helpers for fetching and classifying CodeWithHarry playlists.
 // Imported only from .functions.ts files.
 
-export type HarryTrack = "java" | "cpp" | "dsa";
+import {
+  HARRY_PLAYLIST_IDS,
+  YOUTUBE_API_ENV_VAR,
+  classifyHarryLecture,
+  type HarrySection,
+  type HarryTrack,
+  type HarryWing,
+} from "./harry-config";
 
-export const HARRY_PLAYLIST_IDS: Record<HarryTrack, string> = {
-  java: "PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q",
-  cpp: "PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL",
-  dsa: "PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi",
-};
+export type { HarryTrack } from "./harry-config";
 
 export type RawVideo = {
   videoId: string;
@@ -21,14 +24,26 @@ export type ClassifiedLecture = {
   title: string;
   description: string;
   topicId: string;
+  section: HarrySection;
+  wing: HarryWing;
   duration: string;
 };
+
+let missingKeyWarningShown = false;
 
 // ── Fetch all playlist items with pagination ─────────────────────────────────
 
 export async function fetchPlaylistItems(playlistId: string): Promise<RawVideo[]> {
-  const key = process.env.YOUTUBE_API_KEY;
-  if (!key) return [];
+  const key = process.env[YOUTUBE_API_ENV_VAR];
+  if (!key) {
+    if (process.env.NODE_ENV === "development" && !missingKeyWarningShown) {
+      console.warn(
+        `[DSA Focus] ${YOUTUBE_API_ENV_VAR} is not set. Harry live playlist fetching is disabled; using static fallback content.`,
+      );
+      missingKeyWarningShown = true;
+    }
+    return [];
+  }
 
   const out: RawVideo[] = [];
   let pageToken: string | undefined;
@@ -139,14 +154,19 @@ function classify(title: string, track: HarryTrack): string {
 }
 
 export function classifyPlaylist(videos: RawVideo[], track: HarryTrack): ClassifiedLecture[] {
-  return videos.map((v, i) => ({
-    id: `${ID_PREFIX[track]}-${i + 1}`,
-    videoId: v.videoId,
-    title: v.title,
-    description: v.description,
-    topicId: classify(v.title, track),
-    duration: "",
-  }));
+  return videos.map((v, i) => {
+    const mapped = classifyHarryLecture(v.title, track);
+    return {
+      id: `${ID_PREFIX[track]}-${i + 1}`,
+      videoId: v.videoId,
+      title: v.title,
+      description: v.description,
+      topicId: mapped.topicId,
+      section: mapped.section,
+      wing: mapped.wing,
+      duration: "",
+    };
+  });
 }
 
 // ── In-memory cache (per worker instance) ────────────────────────────────────

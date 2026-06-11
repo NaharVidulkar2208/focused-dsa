@@ -40,19 +40,26 @@ export function useHarryLectures(track: Track) {
         title: l.title,
         duration: l.duration,
         topicId: l.topicId,
+        section: l.section,
+        wing: l.wing,
       }));
     }
     return FALLBACKS[track];
   }, [query.data, track]);
 
-  const topics = TOPICS[track];
+  const allTopics = TOPICS[track];
 
   const byTopic = useMemo<Record<string, HarryLecture[]>>(() => {
-    return topics.reduce((acc, t) => {
+    return allTopics.reduce((acc, t) => {
       acc[t.id] = lectures.filter((l) => l.topicId === t.id);
       return acc;
     }, {} as Record<string, HarryLecture[]>);
-  }, [lectures, topics]);
+  }, [lectures, allTopics]);
+
+  const topics = useMemo(
+    () => allTopics.filter((t) => (byTopic[t.id]?.length ?? 0) > 0),
+    [allTopics, byTopic],
+  );
 
   return {
     lectures,
