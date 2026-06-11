@@ -17,7 +17,7 @@ export const fetchHarryNotesIndex = createServerFn({ method: "GET" })
     const lectures = await getHarryPlaylist(data.track as HarryTrack);
     // Extract URLs from each description; classify per line.
     const urlRe = /https?:\/\/[^\s)>\]"]+/g;
-    const NOTES_RE = /\b(notes?|pdf|slides?|study\s*material)\b/i;
+    const NOTES_RE = /\b(notes?|pdf|slides?|study\s*material|cheatsheet|source\s*code)\b/i;
     const ASSIGN_RE = /\b(assignment|exercise|practice\s*set|homework|quiz)\b/i;
 
     return lectures.map((l) => {
