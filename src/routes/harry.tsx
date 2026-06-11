@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, Outlet, useLocation } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { ArrowLeft, PlayCircle, BookOpen, ChevronRight, CheckCircle2, Layers } from "lucide-react";
 import { AccountMenu } from "@/components/account-menu";
@@ -26,6 +26,9 @@ function readCount(key: string): number {
 }
 
 function HarryHome() {
+  const location = useLocation();
+  if (location.pathname !== "/harry") return <Outlet />;
+
   const [javaDone, setJavaDone] = useState(0);
   const [cppDone, setCppDone] = useState(0);
   const [dsaDone, setDsaDone] = useState(0);
