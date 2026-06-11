@@ -172,12 +172,21 @@ function HarryHome() {
             <h2 className="text-xs font-semibold uppercase tracking-widest text-zinc-500 mb-3">
               Notes & Assignments
             </h2>
-            <div className="rounded-2xl border border-white/8 bg-zinc-900/40 p-5 text-sm text-zinc-500">
-              <div className="flex items-center gap-2">
-                <BookOpen className="h-4 w-4 shrink-0 text-zinc-600" />
-                Notes and assignments for CodeWithHarry are coming soon.
+            <Link
+              to="/harry/notes"
+              className="block rounded-2xl border border-white/8 bg-zinc-900/40 p-5 text-sm text-zinc-300 hover:bg-zinc-900/60 hover:border-white/15 transition"
+            >
+              <div className="flex items-center gap-3">
+                <BookOpen className="h-5 w-5 shrink-0 text-blue-300" />
+                <div className="flex-1">
+                  <div className="font-medium text-zinc-100">Notes, PDFs & Assignment links</div>
+                  <p className="mt-0.5 text-xs text-zinc-500">
+                    Auto-extracted from lecture descriptions — Java, C++ and DSA, fully separated.
+                  </p>
+                </div>
+                <ChevronRight className="h-4 w-4 text-zinc-500" />
               </div>
-            </div>
+            </Link>
           </section>
         </div>
       </main>
