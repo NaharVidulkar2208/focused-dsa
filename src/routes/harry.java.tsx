@@ -12,10 +12,10 @@ import { RecommendationStrip } from "@/components/recommendation-strip";
 import { CourseSidebar } from "@/components/course-sidebar";
 import { HARRY_JAVA_THEME } from "@/lib/course-theme";
 import {
-  HARRY_JAVA_TOPICS, HARRY_JAVA_LECTURES, HARRY_JAVA_BY_TOPIC,
   HARRY_JAVA_PROGRESS_KEY, HARRY_JAVA_LAST_KEY,
   type HarryLecture,
 } from "@/lib/harry-content";
+import { useHarryLectures } from "@/hooks/use-harry-lectures";
 
 export const Route = createFileRoute("/harry/java")({
   head: () => ({
@@ -54,23 +54,24 @@ function HarryJavaLayout() {
   const params = useParams({ strict: false }) as { lectureId?: string };
   const { completed, toggle } = useHarryProgress();
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const { lectures, topics, byTopic, isLoading } = useHarryLectures("java");
 
-  const pct = HARRY_JAVA_LECTURES.length
-    ? Math.round((completed.size / HARRY_JAVA_LECTURES.length) * 100)
+  const pct = lectures.length
+    ? Math.round((completed.size / lectures.length) * 100)
     : 0;
 
   useEffect(() => {
     if (params.lectureId) return;
-    if (HARRY_JAVA_LECTURES.length === 0) return;
+    if (lectures.length === 0) return;
     const last = localStorage.getItem(HARRY_JAVA_LAST_KEY);
-    const target = (last && HARRY_JAVA_LECTURES.find((l) => l.id === last)) ?? HARRY_JAVA_LECTURES[0];
+    const target = (last && lectures.find((l) => l.id === last)) ?? lectures[0];
     if (target) navigate({ to: "/harry/java/$lectureId", params: { lectureId: target.id }, replace: true });
-  }, [params.lectureId, navigate]);
+  }, [params.lectureId, navigate, lectures]);
 
   useEffect(() => { setDrawerOpen(false); }, [params.lectureId]);
 
-  const currentLecture = HARRY_JAVA_LECTURES.find((l) => l.id === params.lectureId);
-  const isEmpty = HARRY_JAVA_LECTURES.filter((l) => l.videoId !== "TODO").length === 0;
+  const currentLecture = lectures.find((l) => l.id === params.lectureId);
+  const isEmpty = !isLoading && lectures.filter((l) => l.videoId !== "TODO").length === 0;
 
   return (
     <div className="flex h-screen flex-col overflow-hidden bg-zinc-950">
