@@ -112,7 +112,7 @@ function HarryJavaLayout() {
                 />
               </div>
               <span className="text-[11px] tabular-nums text-zinc-500">
-                {completed.size}/{HARRY_JAVA_LECTURES.length}
+                {completed.size}/{lectures.length}
               </span>
             </div>
           )}
@@ -141,8 +141,8 @@ function HarryJavaLayout() {
         <div className="flex min-h-0 flex-1">
           <aside className="hidden md:flex w-72 shrink-0 flex-col border-r border-white/8 bg-zinc-900/50">
             <CourseSidebar
-              topics={HARRY_JAVA_TOPICS}
-              byTopic={HARRY_JAVA_BY_TOPIC}
+              topics={topics}
+              byTopic={byTopic}
               activeLectureId={params.lectureId}
               completed={completed}
               onNavigate={(id) => navigate({ to: "/harry/java/$lectureId", params: { lectureId: id } })}
@@ -164,8 +164,8 @@ function HarryJavaLayout() {
                   </button>
                 </div>
                 <CourseSidebar
-                  topics={HARRY_JAVA_TOPICS}
-                  byTopic={HARRY_JAVA_BY_TOPIC}
+                  topics={topics}
+                  byTopic={byTopic}
                   activeLectureId={params.lectureId}
                   completed={completed}
                   onNavigate={(id) => navigate({ to: "/harry/java/$lectureId", params: { lectureId: id } })}
@@ -180,7 +180,8 @@ function HarryJavaLayout() {
             {currentLecture ? (
               <LectureView
                 lecture={currentLecture}
-                allLectures={HARRY_JAVA_LECTURES}
+                allLectures={lectures}
+                topics={topics}
                 completed={completed}
                 onToggle={toggle}
               />
@@ -195,10 +196,11 @@ function HarryJavaLayout() {
 }
 
 function LectureView({
-  lecture, allLectures, completed, onToggle,
+  lecture, allLectures, topics, completed, onToggle,
 }: {
   lecture: HarryLecture;
   allLectures: HarryLecture[];
+  topics: { id: string; title: string; emoji: string }[];
   completed: Set<string>;
   onToggle: (id: string) => void;
 }) {
@@ -206,7 +208,7 @@ function LectureView({
   const idx = allLectures.findIndex((l) => l.id === lecture.id);
   const prev = allLectures[idx - 1];
   const next = allLectures[idx + 1];
-  const topic = HARRY_JAVA_TOPICS.find((t) => t.id === lecture.topicId);
+  const topic = topics.find((t) => t.id === lecture.topicId);
   const isDone = completed.has(lecture.id);
   const isLast = idx === allLectures.length - 1;
 
