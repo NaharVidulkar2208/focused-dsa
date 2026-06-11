@@ -378,28 +378,20 @@ function KunalBanner() {
 
 function ApnaBanner() {
   return (
-    <div className="relative h-full w-full overflow-hidden bg-gradient-to-br from-violet-950 via-zinc-900 to-pink-950">
-      {/* Glows */}
-      <div className="absolute -top-8 right-1/3 h-36 w-36 rounded-full bg-violet-500/20 blur-2xl" />
-      <div className="absolute bottom-0 right-0 h-28 w-28 rounded-full bg-pink-500/15 blur-2xl" />
-      {/* Decorative floating shapes */}
-      <div className="absolute right-6 top-4 flex flex-col gap-1.5 opacity-30">
-        {["Array", "Stack", "Tree", "Graph", "BST"].map((s) => (
-          <span key={s} className="rounded bg-violet-400/20 px-1.5 py-0.5 font-mono text-[9px] text-violet-300">
-            {s}
-          </span>
-        ))}
-      </div>
-      {/* SK monogram */}
-      <div className="absolute right-6 bottom-4 grid h-14 w-14 place-items-center rounded-full bg-gradient-to-br from-violet-500 to-pink-500 shadow-lg shadow-violet-500/30 text-xl font-bold text-white">
-        SK
-      </div>
-      {/* Text overlay left */}
+    <div className="relative h-full w-full overflow-hidden bg-zinc-900">
+      <img
+        src="/assets/apna-banner.jpg"
+        alt="Apna College — DSA Series"
+        loading="lazy"
+        className="absolute inset-0 h-full w-full object-cover"
+        onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/85 via-zinc-950/20 to-transparent" />
       <div className="relative z-10 flex h-full flex-col justify-end p-4">
-        <div className="mb-1 inline-flex w-fit items-center gap-1.5 rounded-full bg-violet-500/20 px-2.5 py-1 text-[10px] font-medium text-violet-300 ring-1 ring-violet-500/30">
-          <span className="inline-block h-1.5 w-1.5 rounded-full bg-pink-400" /> Apna College
+        <div className="mb-1 inline-flex w-fit items-center gap-1.5 rounded-full bg-orange-500/20 px-2.5 py-1 text-[10px] font-medium text-orange-200 ring-1 ring-orange-500/30">
+          <span className="inline-block h-1.5 w-1.5 rounded-full bg-orange-400" /> Apna College
         </div>
-        <p className="text-xs text-zinc-400">C++ · DSA Series</p>
+        <p className="text-xs text-zinc-200">C++ · DSA Series</p>
       </div>
     </div>
   );
@@ -407,28 +399,20 @@ function ApnaBanner() {
 
 function HarryBanner() {
   return (
-    <div className="relative h-full w-full overflow-hidden bg-gradient-to-br from-amber-950 via-zinc-900 to-orange-950">
-      {/* Glows */}
-      <div className="absolute -top-8 right-1/3 h-36 w-36 rounded-full bg-amber-500/20 blur-2xl" />
-      <div className="absolute bottom-0 right-0 h-28 w-28 rounded-full bg-orange-500/20 blur-2xl" />
-      {/* Floating chips */}
-      <div className="absolute right-6 top-4 flex flex-col gap-1.5 opacity-30">
-        {["Java", "C++", "DSA", "Graphs", "DP"].map((s) => (
-          <span key={s} className="rounded bg-amber-400/20 px-1.5 py-0.5 font-mono text-[9px] text-amber-300">
-            {s}
-          </span>
-        ))}
-      </div>
-      {/* CHW monogram */}
-      <div className="absolute right-6 bottom-4 grid h-14 w-14 place-items-center rounded-full bg-gradient-to-br from-amber-500 to-orange-500 shadow-lg shadow-amber-500/30 text-sm font-bold text-white">
-        CHW
-      </div>
-      {/* Text overlay left */}
+    <div className="relative h-full w-full overflow-hidden bg-zinc-900">
+      <img
+        src="/assets/harry-banner.png"
+        alt="CodeWithHarry — C++/Java + DSA"
+        loading="lazy"
+        className="absolute inset-0 h-full w-full object-cover"
+        onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-zinc-950/15 to-transparent" />
       <div className="relative z-10 flex h-full flex-col justify-end p-4">
-        <div className="mb-1 inline-flex w-fit items-center gap-1.5 rounded-full bg-amber-500/20 px-2.5 py-1 text-[10px] font-medium text-amber-300 ring-1 ring-amber-500/30">
-          <span className="inline-block h-1.5 w-1.5 rounded-full bg-orange-400" /> CodeWithHarry
+        <div className="mb-1 inline-flex w-fit items-center gap-1.5 rounded-full bg-blue-500/20 px-2.5 py-1 text-[10px] font-medium text-blue-200 ring-1 ring-blue-500/30">
+          <span className="inline-block h-1.5 w-1.5 rounded-full bg-blue-400" /> CodeWithHarry
         </div>
-        <p className="text-xs text-zinc-400">Java · C++ · DSA</p>
+        <p className="text-xs text-zinc-200">Java · C++ · DSA</p>
       </div>
     </div>
   );
