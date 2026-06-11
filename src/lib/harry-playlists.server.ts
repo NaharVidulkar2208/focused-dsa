@@ -154,14 +154,19 @@ function classify(title: string, track: HarryTrack): string {
 }
 
 export function classifyPlaylist(videos: RawVideo[], track: HarryTrack): ClassifiedLecture[] {
-  return videos.map((v, i) => ({
-    id: `${ID_PREFIX[track]}-${i + 1}`,
-    videoId: v.videoId,
-    title: v.title,
-    description: v.description,
-    topicId: classify(v.title, track),
-    duration: "",
-  }));
+  return videos.map((v, i) => {
+    const mapped = classifyHarryLecture(v.title, track);
+    return {
+      id: `${ID_PREFIX[track]}-${i + 1}`,
+      videoId: v.videoId,
+      title: v.title,
+      description: v.description,
+      topicId: mapped.topicId,
+      section: mapped.section,
+      wing: mapped.wing,
+      duration: "",
+    };
+  });
 }
 
 // ── In-memory cache (per worker instance) ────────────────────────────────────
