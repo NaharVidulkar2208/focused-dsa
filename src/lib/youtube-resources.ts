@@ -1,6 +1,34 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// YOUTUBE API KEY CONFIGURATION
+// ═══════════════════════════════════════════════════════════════════════════════
+// This service fetches video metadata (descriptions) from YouTube Data API v3.
+//
+// Environment variable required:
+//   YOUTUBE_API_KEY  –  a Google Cloud API key with YouTube Data API enabled
+//
+// How to obtain a key:
+//   1. Visit https://console.cloud.google.com/
+//   2. Create or select a project
+//   3. Enable "YouTube Data API v3" in the API Library
+//   4. Go to Credentials → Create credentials → API key
+//   5. Set the key in your .env file (see .env.example for the template)
+//
+// SECURITY NOTICE:
+//   • Do NOT commit real API keys to GitHub.
+//   • The key is read server-side ONLY (process.env.YOUTUBE_API_KEY).
+//   • It never reaches the browser bundle.
+//   • .env files are already in .gitignore.
+//
+// GRACEFUL DEGRADATION:
+//   If the key is missing the app will:
+//   • Log a single warning in development (never in production)
+//   • Return null so callers fall back to cached / static content
+//   • Continue serving Harry / Apna / other courses without crashing
+// ═══════════════════════════════════════════════════════════════════════════════
+
 export type ParsedResource = {
   label: string;
   url: string;
@@ -14,13 +42,27 @@ export type ParsedResources = {
   fetchedAt: number;
 };
 
+let devWarningShown = false;
+
 // ── Server function (key stays server-side) ──────────────────────────────────
 
 export const fetchVideoDescription = createServerFn({ method: "GET" })
   .inputValidator(z.object({ videoId: z.string() }))
   .handler(async ({ data }) => {
     const key = process.env.YOUTUBE_API_KEY;
-    if (!key) return null;
+    if (!key) {
+      if (process.env.NODE_ENV === "development" && !devWarningShown) {
+        // eslint-disable-next-line no-console
+        console.warn(
+          "[DSA Focus] YOUTUBE_API_KEY is not set. " +
+            "Video description fetching is disabled. " +
+            "The app will use cached / static content instead. " +
+            "See .env.example for setup instructions."
+        );
+        devWarningShown = true;
+      }
+      return null;
+    }
     try {
       const res = await fetch(
         `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${data.videoId}&key=${key}`,
