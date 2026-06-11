@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import { ArrowLeft, PlayCircle, BookOpen, ChevronRight, CheckCircle2, Layers } from "lucide-react";
 import { AccountMenu } from "@/components/account-menu";
 import {
-  HARRY_JAVA_LECTURES, HARRY_CPP_LECTURES, HARRY_DSA_LECTURES,
   HARRY_JAVA_TOPICS, HARRY_CPP_TOPICS, HARRY_DSA_TOPICS,
   HARRY_JAVA_PROGRESS_KEY, HARRY_CPP_PROGRESS_KEY, HARRY_DSA_PROGRESS_KEY,
 } from "@/lib/harry-content";
+import { useHarryLectures } from "@/hooks/use-harry-lectures";
 
 export const Route = createFileRoute("/harry")({
   head: () => ({
@@ -29,6 +29,9 @@ function HarryHome() {
   const [javaDone, setJavaDone] = useState(0);
   const [cppDone, setCppDone] = useState(0);
   const [dsaDone, setDsaDone] = useState(0);
+  const javaData = useHarryLectures("java");
+  const cppData = useHarryLectures("cpp");
+  const dsaData = useHarryLectures("dsa");
 
   useEffect(() => {
     setJavaDone(readCount(HARRY_JAVA_PROGRESS_KEY));
@@ -39,7 +42,10 @@ function HarryHome() {
   const javaLastId = (() => { try { return localStorage.getItem(HARRY_JAVA_PROGRESS_KEY.replace("progress", "last")); } catch { return null; } })();
   const dsaLastId = (() => { try { return localStorage.getItem(HARRY_DSA_PROGRESS_KEY.replace("progress", "last")); } catch { return null; } })();
 
-  const totalAll = HARRY_JAVA_LECTURES.length + HARRY_CPP_LECTURES.length + HARRY_DSA_LECTURES.length;
+  const javaTotal = javaData.lectures.length;
+  const cppTotal = cppData.lectures.length;
+  const dsaTotal = dsaData.lectures.length;
+  const totalAll = javaTotal + cppTotal + dsaTotal;
   const doneAll = javaDone + cppDone + dsaDone;
 
   return (
@@ -126,7 +132,7 @@ function HarryHome() {
                 label="Java + DSA"
                 tagline="Complete Java from scratch to OOP, Collections, and DSA integration."
                 topics={HARRY_JAVA_TOPICS.length}
-                total={HARRY_JAVA_LECTURES.length}
+                total={javaTotal}
                 done={javaDone}
                 lastId={javaLastId}
                 resumeTo="/harry/java"
@@ -138,7 +144,7 @@ function HarryHome() {
                 label="C++ + DSA"
                 tagline="Master C++ from basics through pointers, OOP, and the STL."
                 topics={HARRY_CPP_TOPICS.length}
-                total={HARRY_CPP_LECTURES.length}
+                total={cppTotal}
                 done={cppDone}
                 lastId={null}
                 resumeTo="/harry/cpp"
@@ -158,7 +164,7 @@ function HarryHome() {
               label="Data Structures & Algorithms"
               tagline="Language-agnostic DSA — sorting, trees, graphs, heaps, dynamic programming and more."
               topics={HARRY_DSA_TOPICS.length}
-              total={HARRY_DSA_LECTURES.length}
+              total={dsaTotal}
               done={dsaDone}
               lastId={dsaLastId}
               resumeTo="/harry/dsa"
