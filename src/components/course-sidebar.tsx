@@ -132,24 +132,24 @@ export function CourseSidebar({
                       <li key={lecture.id}>
                         <button
                           onClick={() => { onNavigate(lecture.id); onSelect?.(); }}
-                          className={`flex w-full items-start gap-2.5 border-l-2 px-4 py-2 text-left transition-colors ${
+                          className={`flex w-full items-start gap-2 border-l-2 px-4 py-1.5 text-left transition-colors ${
                             isActive
                               ? `${theme.activeRowBg} ${theme.activeBorderL}`
                               : "border-transparent hover:bg-white/5"
                           }`}
                         >
                           {isDone ? (
-                            <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-emerald-400" />
+                            <CheckCircle2 className="mt-0.5 h-3 w-3 shrink-0 text-emerald-400" />
                           ) : (
                             <Circle
-                              className={`mt-0.5 h-3.5 w-3.5 shrink-0 ${
+                              className={`mt-0.5 h-3 w-3 shrink-0 ${
                                 isActive ? theme.activeIcon : "text-zinc-600"
                               }`}
                             />
                           )}
                           <div className="min-w-0">
                             <p
-                              className={`text-[12px] leading-snug ${
+                              className={`text-[11px] leading-snug ${
                                 isActive
                                   ? `${theme.activeTitle} font-medium`
                                   : isDone
