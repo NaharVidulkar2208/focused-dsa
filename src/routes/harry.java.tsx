@@ -289,13 +289,7 @@ function LectureView({
 
         {isLast && isDone && (
           <div className="mt-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-4">
-            <p className="text-sm font-semibold text-amber-200">Java complete! Ready for DSA?</p>
-            <Link
-              to="/harry/dsa"
-              className="mt-2 inline-flex items-center gap-1.5 rounded-lg bg-emerald-500/15 px-3 py-1.5 text-xs font-medium text-emerald-300 ring-1 ring-emerald-500/30 hover:bg-emerald-500/25 transition"
-            >
-              Continue to DSA <ChevronRight className="h-3.5 w-3.5" />
-            </Link>
+            <p className="text-sm font-semibold text-amber-200">Wing complete — Java + DSA finished!</p>
           </div>
         )}
 
