@@ -61,7 +61,6 @@ function Home() {
   const { data: kunalDone = 0 } = useKunalProgress(user?.id);
   const javaData = useHarryLectures("java");
   const cppData = useHarryLectures("cpp");
-  const dsaData = useHarryLectures("dsa");
 
   const kunalGuestDone = useMemo(() => {
     try {
@@ -83,11 +82,9 @@ function Home() {
     try {
       const j = localStorage.getItem(HARRY_JAVA_PROGRESS_KEY);
       const c = localStorage.getItem(HARRY_CPP_PROGRESS_KEY);
-      const d = localStorage.getItem(HARRY_DSA_PROGRESS_KEY);
       setHarryDone(
         (j ? (JSON.parse(j) as string[]).length : 0) +
-        (c ? (JSON.parse(c) as string[]).length : 0) +
-        (d ? (JSON.parse(d) as string[]).length : 0)
+        (c ? (JSON.parse(c) as string[]).length : 0)
       );
     } catch {}
   }, []);
@@ -95,7 +92,7 @@ function Home() {
   const kunalCompleted = user ? kunalDone : kunalGuestDone;
   const kunalPct = Math.round((kunalCompleted / KUNAL_TOTAL) * 100);
   const apnaPct = Math.round((apnaDone / APNA_TOTAL) * 100);
-  const harryTotal = javaData.lectures.length + cppData.lectures.length + dsaData.lectures.length;
+  const harryTotal = javaData.lectures.length + cppData.lectures.length;
   const harryPct = harryTotal > 0 ? Math.round((harryDone / harryTotal) * 100) : 0;
 
   const greeting = getGreeting(displayName);
