@@ -1,0 +1,5142 @@
+{
+  "generatedAt": "2026-06-12T05:08:59.736Z",
+  "tracks": {
+    "java": {
+      "topics": [
+        {
+          "id": "java-basics",
+          "title": "Java Basics",
+          "emoji": "☕"
+        },
+        {
+          "id": "java-strings",
+          "title": "Strings",
+          "emoji": "📝"
+        },
+        {
+          "id": "java-control",
+          "title": "Conditionals & Loops",
+          "emoji": "🔁"
+        },
+        {
+          "id": "java-arrays",
+          "title": "Arrays & Matrices",
+          "emoji": "🗂️"
+        },
+        {
+          "id": "java-methods",
+          "title": "Methods & Functions",
+          "emoji": "⚙️"
+        },
+        {
+          "id": "java-oop",
+          "title": "OOP",
+          "emoji": "🎯"
+        },
+        {
+          "id": "java-advanced",
+          "title": "Advanced Java",
+          "emoji": "🚀"
+        }
+      ],
+      "lectures": [
+        {
+          "id": "hwj-1",
+          "index": 1,
+          "videoId": "ntLJmHOJ0ME",
+          "title": "Introduction to Java + Installing Java JDK and IntelliJ IDEA for Java",
+          "topicId": "java-basics",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/notes"
+            },
+            {
+              "label": "Ultimate Java Cheatsheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-2",
+          "index": 2,
+          "videoId": "zIdg7hkqNE0",
+          "title": "Basic Structure of a Java Program: Understanding our First Java Hello World Program",
+          "topicId": "java-basics",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-2"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-3",
+          "index": 3,
+          "videoId": "X0zdAG7gfgs",
+          "title": "Java Tutorial: Variables and Data Types in Java Programming",
+          "topicId": "java-basics",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-3"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-4",
+          "index": 4,
+          "videoId": "b2VJmyarV3I",
+          "title": "Java Tutorial: Literals in Java",
+          "topicId": "java-basics",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-4"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-5",
+          "index": 5,
+          "videoId": "HRfmLqqvzUs",
+          "title": "Java Tutorial: Getting User Input in Java",
+          "topicId": "java-basics",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-5"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-6",
+          "index": 6,
+          "videoId": "C5me8SeuW9M",
+          "title": "Java Programming Exercise 1: CBSE Board Percentage Calculator",
+          "topicId": "java-basics",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-6"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-7",
+          "index": 7,
+          "videoId": "d9oF3MNzmuk",
+          "title": "Java Tutorial: Chapter 1- Practice Set | Java Practice Problems With Solution",
+          "topicId": "java-basics",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-7"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-8",
+          "index": 8,
+          "videoId": "pnn2VTSr1Ko",
+          "title": "Java Tutorial: Operators, Types of Operators & Expressions in Java",
+          "topicId": "java-strings",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-8"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-9",
+          "index": 9,
+          "videoId": "vh16INx13h4",
+          "title": "Java Tutorial: Associativity of Operators in Java",
+          "topicId": "java-strings",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-9"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-10",
+          "index": 10,
+          "videoId": "xGsUs3XQ0t0",
+          "title": "Java Tutorial:  Data Type of Expressions & Increment/Decrement Operators",
+          "topicId": "java-strings",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-10"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-11",
+          "index": 11,
+          "videoId": "HQxKktmOXQY",
+          "title": "Java Tutorial: Exercise 1 - Solutions + Shoutouts",
+          "topicId": "java-strings",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-11"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-12",
+          "index": 12,
+          "videoId": "WC7B7LffdkI",
+          "title": "Java Tutorial: Chapter 2 - Practice Set (Java Practice Questions)",
+          "topicId": "java-strings",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-12"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-13",
+          "index": 13,
+          "videoId": "tem1bKt2Osc",
+          "title": "Java Tutorial: Introduction to Strings",
+          "topicId": "java-strings",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-13"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-14",
+          "index": 14,
+          "videoId": "1SJK4Y4axXs",
+          "title": "Java Tutorial: String Methods in Java",
+          "topicId": "java-strings",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-14"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-15",
+          "index": 15,
+          "videoId": "MO3GfaHwHsw",
+          "title": "Java Practice Questions on Strings: Practice Set on Java Strings (Must Solve!)",
+          "topicId": "java-strings",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-15"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-16",
+          "index": 16,
+          "videoId": "YPK6NYMJt_A",
+          "title": "Java Conditionals: If-else Statement in Java",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-16"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-17",
+          "index": 17,
+          "videoId": "Y-c8gQV2Tuw",
+          "title": "Java Tutorial: Relational and Logical Operators in Java",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-17"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-18",
+          "index": 18,
+          "videoId": "hdOtQSuPBRY",
+          "title": "Java Tutorial: Switch Case Statements in Java",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-18"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-19",
+          "index": 19,
+          "videoId": "lGHzXsEoUkM",
+          "title": "Java Tutorial: Practice Questions On Conditionals & Switch Case",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-19"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-20",
+          "index": 20,
+          "videoId": "UClkmZOZhhs",
+          "title": "Java Programming Exercise 2: Rock, Paper Scissors Game in Java",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-20"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-21",
+          "index": 21,
+          "videoId": "GE5C_So1y00",
+          "title": "Java Tutorial: While Loops in Java",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-21"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-22",
+          "index": 22,
+          "videoId": "XFyNiI6ozO0",
+          "title": "Java Tutorial: The do-while loop in Java",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-22"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-23",
+          "index": 23,
+          "videoId": "XHgC6Md8L9o",
+          "title": "Java Tutorial: The for Loop in Java",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-23"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-24",
+          "index": 24,
+          "videoId": "HguqMkdIkcs",
+          "title": "Java Tutorial: break and continue in Java",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-24"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-25",
+          "index": 25,
+          "videoId": "zY87HRloM18",
+          "title": "Java tutorial: Practice Questions on Loops",
+          "topicId": "java-control",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-25"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-26",
+          "index": 26,
+          "videoId": "qMePCtjeqB4",
+          "title": "Java Tutorial: Introduction to Arrays",
+          "topicId": "java-arrays",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-26"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-27",
+          "index": 27,
+          "videoId": "-AJGE_8htCI",
+          "title": "Java Tutorial: For Each Loop in Java",
+          "topicId": "java-arrays",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-27"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-28",
+          "index": 28,
+          "videoId": "CfqjAKN-AwI",
+          "title": "Java Tutorial: Multidimensional Arrays in Java",
+          "topicId": "java-arrays",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-28"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-29",
+          "index": 29,
+          "videoId": "XDlxr2wYNfU",
+          "title": "Java Tutorial: Practice Questions on Arrays in Java",
+          "topicId": "java-arrays",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-29"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-30",
+          "index": 30,
+          "videoId": "1etC1g0HNBg",
+          "title": "How to Make IntelliJ IDEA look Amazing!",
+          "topicId": "java-arrays",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-30"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-31",
+          "index": 31,
+          "videoId": "t6e5AyYWLFw",
+          "title": "Java Tutorial: Methods in Java",
+          "topicId": "java-methods",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-31"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-32",
+          "index": 32,
+          "videoId": "pFaB68naMiU",
+          "title": "Java Tutorial: Method Overloading in Java",
+          "topicId": "java-methods",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-32"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-33",
+          "index": 33,
+          "videoId": "PpRpiMReGXY",
+          "title": "Java Tutorial: Variable Arguments (VarArgs) in Java",
+          "topicId": "java-methods",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-33"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-34",
+          "index": 34,
+          "videoId": "QLbG77JngYc",
+          "title": "Java Tutorial: Recursion in Java",
+          "topicId": "java-methods",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-34"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-35",
+          "index": 35,
+          "videoId": "VXR3HKRg51w",
+          "title": "Java Tutorial: Practice Questions on Java Methods",
+          "topicId": "java-methods",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-35"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-36",
+          "index": 36,
+          "videoId": "5OrZpBbGKgc",
+          "title": "Java Tutorial: Introduction to Object Oriented Programming",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-37"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-37",
+          "index": 37,
+          "videoId": "HHWPcyFmw2o",
+          "title": "Java Tutorial: Basic Terminologies in Object Oriented Programming",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-37"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-38",
+          "index": 38,
+          "videoId": "0HIR0rzj8pQ",
+          "title": "Java Tutorial: Creating Our Own Java Class",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-38"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-39",
+          "index": 39,
+          "videoId": "wQZCbojRawg",
+          "title": "Java Tutorial: Basic Questions on Object Oriented Programming",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-39"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-40",
+          "index": 40,
+          "videoId": "25zw-ljLLw0",
+          "title": "Java Tutorial: Access modifiers, getters & setters in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-40"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-41",
+          "index": 41,
+          "videoId": "5XF_POby0Q0",
+          "title": "Java Tutorial: Exercise 2 - Solution and Shoutouts",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-41"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-42",
+          "index": 42,
+          "videoId": "Fxj4n8En8lw",
+          "title": "Java Tutorial: Constructors in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-42"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-43",
+          "index": 43,
+          "videoId": "2heXAHrmmsk",
+          "title": "Java Exercise 3: Guess the Number (OOPs Edition)",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-43"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-44",
+          "index": 44,
+          "videoId": "N3Xu1rO6feY",
+          "title": "Java Tutorial: Exercise on Access Modifiers and Constructors",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-44"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-45",
+          "index": 45,
+          "videoId": "XSuybcFfLx4",
+          "title": "Inheritance in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-45"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-46",
+          "index": 46,
+          "videoId": "-b-_NNlCcng",
+          "title": "Constructors in Inheritance in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-46"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-47",
+          "index": 47,
+          "videoId": "R1SXNJElXHo",
+          "title": "this and super keyword in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-47"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-48",
+          "index": 48,
+          "videoId": "DSZI90Db24I",
+          "title": "Method Overriding in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-48"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-49",
+          "index": 49,
+          "videoId": "qbXNFOuD9k4",
+          "title": "Dynamic Method Dispatch in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-49"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-50",
+          "index": 50,
+          "videoId": "rfKz08bClBA",
+          "title": "Java Tutorial: Exercise 3 - Solutions & Shoutouts",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-50"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-51",
+          "index": 51,
+          "videoId": "iOaDMWkmc3Q",
+          "title": "Java Tutorial: Exercise 4 - Online Library",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-51"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-52",
+          "index": 52,
+          "videoId": "dm_bclqGhuc",
+          "title": "Java Tutorial: Exercise & Practice Questions on Inheritance",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-52"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-53",
+          "index": 53,
+          "videoId": "vqV22AszAdw",
+          "title": "Java Tutorial: Abstract Class & Abstract Methods",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-53"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-54",
+          "index": 54,
+          "videoId": "VYhmL038G1I",
+          "title": "Java Tutorial: Introduction to Interfaces",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-54"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-55",
+          "index": 55,
+          "videoId": "qZEFslUVfx0",
+          "title": "Java Tutorial: Abstract Classes Vs Interfaces",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-55"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-56",
+          "index": 56,
+          "videoId": "HnaVobvfSyc",
+          "title": "Why multiple inheritance is not supported in java?",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-56"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-57",
+          "index": 57,
+          "videoId": "D4TYED_gKTE",
+          "title": "Java Interfaces Example & Default Methods",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-57"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-58",
+          "index": 58,
+          "videoId": "F_CrLyz5xW4",
+          "title": "Inheritance in Interfaces",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-58"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-59",
+          "index": 59,
+          "videoId": "08u8RlXca2I",
+          "title": "Java Tutorial: Polymorphism in Interfaces",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-59"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-60",
+          "index": 60,
+          "videoId": "-1ibsVnP64Q",
+          "title": "Java Practice Questions on Abstract Classes & Interfaces",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-60"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-61",
+          "index": 61,
+          "videoId": "VysxZDROr64",
+          "title": "Java Exercise 4: Solution & Shoutouts!",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-61"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-62",
+          "index": 62,
+          "videoId": "jtXJP_BqXes",
+          "title": "Interpreted vs Compiled Languages!",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-62"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-63",
+          "index": 63,
+          "videoId": "luxOkCvJBcQ",
+          "title": "Is Java interpreted or compiled?",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-63"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-64",
+          "index": 64,
+          "videoId": "k7TwStbkK70",
+          "title": "Packages in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-64"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-65",
+          "index": 65,
+          "videoId": "av816KIz8nM",
+          "title": "Java Tutorial: Creating Packages in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-65"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-66",
+          "index": 66,
+          "videoId": "vgg9T4_0CNA",
+          "title": "Access Modifiers in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-66"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-67",
+          "index": 67,
+          "videoId": "MvmZgflfT8M",
+          "title": "Practice Set on Java Package & Access Modifiers",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-67"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Download the Practice Set",
+              "url": "https://drive.google.com/file/d/1S5Z3dluBwvPbvklyAJ16zQVLtOMjfnDv/view?usp=sharing"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-68",
+          "index": 68,
+          "videoId": "QjwtW7GHjcY",
+          "title": "Java Exercise 5: Creating a Custom Package",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-68"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-69",
+          "index": 69,
+          "videoId": "YDH7f9dTXAs",
+          "title": "Multithreading in Java",
+          "topicId": "java-oop",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-69"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-70",
+          "index": 70,
+          "videoId": "b_h4-_j6JmY",
+          "title": "Creating a Thread by Extending Thread class",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-70"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-71",
+          "index": 71,
+          "videoId": "7wpFNKnCpiQ",
+          "title": "Creating a Java Thread Using Runnable Interface",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-71"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-72",
+          "index": 72,
+          "videoId": "9O9tTS6LseI",
+          "title": "Java Thread Life Cycle",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-72"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-73",
+          "index": 73,
+          "videoId": "DAHHFj39RRY",
+          "title": "Constructors from Thread class in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-73"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-74",
+          "index": 74,
+          "videoId": "0s46eRixwnk",
+          "title": "Java Thread Priorities",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-74"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-75",
+          "index": 75,
+          "videoId": "rVDWb0stlfQ",
+          "title": "Java Thread Methods",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-75"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-76",
+          "index": 76,
+          "videoId": "AKuu92ELIrE",
+          "title": "Java Tutorial: Practice Questions on Thread",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-76"
+            },
+            {
+              "label": "Ultimate Java CheatSheet",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-77",
+          "index": 77,
+          "videoId": "O5mEqyUzRVA",
+          "title": "Exercise 5: Solution & Shoutouts!",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-77"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-78",
+          "index": 78,
+          "videoId": "ZovnoASlIaE",
+          "title": "Errors & Exception in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-78"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-79",
+          "index": 79,
+          "videoId": "gtszMcGWW10",
+          "title": "Syntax Errors, Runtime Errors & Logical Errors in Java (Demo)",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-79"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-80",
+          "index": 80,
+          "videoId": "bMhDwdT5AHw",
+          "title": "Try Catch Block in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-80"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-81",
+          "index": 81,
+          "videoId": "UXvMSMnYAzE",
+          "title": "Handling Specific Exceptions in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-81"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-82",
+          "index": 82,
+          "videoId": "To6tsfRADL4",
+          "title": "Nested Try-Catch in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-82"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-83",
+          "index": 83,
+          "videoId": "UZIIY5CK0TM",
+          "title": "The Exception class in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-83"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-84",
+          "index": 84,
+          "videoId": "sOcZgWyoQuk",
+          "title": "Throw vs Throws in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-84"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-85",
+          "index": 85,
+          "videoId": "a0TkfbAGuKw",
+          "title": "Finally Block in Java & Why is it needed!",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-85"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-86",
+          "index": 86,
+          "videoId": "iH9Hkh9C-YM",
+          "title": "Practice Set on Errors & Exceptions",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-86"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-87",
+          "index": 87,
+          "videoId": "93CDUtPjCPk",
+          "title": "Java Exercise 6: Custom Calculator | Java Practice Question",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-87"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-88",
+          "index": 88,
+          "videoId": "s8yrPZlvNP0",
+          "title": "Java Collections Framework",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-88"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-89",
+          "index": 89,
+          "videoId": "M5DlD4VMNO8",
+          "title": "Collections Hierarchy in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-89"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-90",
+          "index": 90,
+          "videoId": "3HO65WF1sPY",
+          "title": "How to View Java Documentation (Correct Way)",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-90"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-91",
+          "index": 91,
+          "videoId": "hxUGjnVaPgE",
+          "title": "ArrayList in Java: Demo & Methods",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-91"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-92",
+          "index": 92,
+          "videoId": "eAyUSV164Ro",
+          "title": "LinkedList in Java: Demo & Methods",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-92"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-93",
+          "index": 93,
+          "videoId": "07HKJO4B96M",
+          "title": "ArrayDeque in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-93"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-94",
+          "index": 94,
+          "videoId": "JVdMD3r7dSs",
+          "title": "Hashing in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-94"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-95",
+          "index": 95,
+          "videoId": "tqC_U2Y7rr4",
+          "title": "HashSet in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-95"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-96",
+          "index": 96,
+          "videoId": "PCJRuBQa4Pk",
+          "title": "Date and Time in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-96"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-97",
+          "index": 97,
+          "videoId": "AykO23IwSLw",
+          "title": "The Date Class in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-97"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-98",
+          "index": 98,
+          "videoId": "5v2XK-HIRnc",
+          "title": "Calendar Class in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://archive.codewithharry.com/videos/java-tutorials-for-beginners-98"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-99",
+          "index": 99,
+          "videoId": "2a6zZBrT92o",
+          "title": "GregorianCalendar class & TimeZone in java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-99"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-100",
+          "index": 100,
+          "videoId": "LfxKvn2Ri4E",
+          "title": "java.time API - Classes & Methods",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-100"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-101",
+          "index": 101,
+          "videoId": "icQM98mzlG0",
+          "title": "DateTimeFormatter in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-101"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-102",
+          "index": 102,
+          "videoId": "-b93mslJ2j8",
+          "title": "Advanced Java Practice Set",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-102"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-103",
+          "index": 103,
+          "videoId": "KRIb4hm6uDI",
+          "title": "Java Exercise 6: Solution | Custom Calculator",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-103"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-104",
+          "index": 104,
+          "videoId": "IgPDDiFcA88",
+          "title": "Java Exercise 7: Library Management System in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-104"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-105",
+          "index": 105,
+          "videoId": "IrSbN7Y2lOA",
+          "title": "Generating our own JavaDocs for our Package",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-105"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-106",
+          "index": 106,
+          "videoId": "u7hFzG1n4mg",
+          "title": "Javadocs: Tags for Documenting Classes",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-106"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-107",
+          "index": 107,
+          "videoId": "gZJXbmC8Yno",
+          "title": "Javadocs: Method Tags For Generating java Documentation",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-107"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-108",
+          "index": 108,
+          "videoId": "jy8Glegc5Xo",
+          "title": "Annotations in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-108"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-109",
+          "index": 109,
+          "videoId": "FTk7bGPAYpo",
+          "title": "Java Anonymous Classes & Lambda Expressions",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-109"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-110",
+          "index": 110,
+          "videoId": "BsBK3UZ0RGM",
+          "title": "Java Generics",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-110"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-111",
+          "index": 111,
+          "videoId": "Vy2l3lGAb2I",
+          "title": "File Handling in Java",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-111"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-112",
+          "index": 112,
+          "videoId": "K4iaIuPx7Go",
+          "title": "Advanced Java 2 - Practice Set",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-112"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwj-113",
+          "index": 113,
+          "videoId": "j-k6ppZZ-ho",
+          "title": "Exercise 7: Solutions + Shoutouts",
+          "topicId": "java-advanced",
+          "notes": [
+            {
+              "label": "Source Code + Notes",
+              "url": "https://codewithharry.com/videos/java-tutorials-for-beginners-113"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        }
+      ]
+    },
+    "cpp": {
+      "topics": [
+        {
+          "id": "cpp-basics",
+          "title": "Basics & IO",
+          "emoji": "⚡"
+        },
+        {
+          "id": "cpp-control",
+          "title": "Conditionals & Loops",
+          "emoji": "🔁"
+        },
+        {
+          "id": "cpp-pointers",
+          "title": "Pointers & Memory",
+          "emoji": "🔗"
+        },
+        {
+          "id": "cpp-functions",
+          "title": "Functions & Structs",
+          "emoji": "⚙️"
+        },
+        {
+          "id": "cpp-oop",
+          "title": "OOP",
+          "emoji": "🎯"
+        },
+        {
+          "id": "cpp-advanced",
+          "title": "Advanced C++ & STL",
+          "emoji": "🧰"
+        }
+      ],
+      "lectures": [
+        {
+          "id": "hwc-1",
+          "index": 1,
+          "videoId": "j8nAHeVKL08",
+          "title": "Introduction to C++, Installing VS Code, g++ & more | C++ Tutorials for Beginners #1",
+          "topicId": "cpp-basics",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-2",
+          "index": 2,
+          "videoId": "oW2r0r_i5Ps",
+          "title": "Basic Structure of a C++ Program | C++ Tutorials for Beginners #2",
+          "topicId": "cpp-basics",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-2"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-3",
+          "index": 3,
+          "videoId": "jigb6W35zHc",
+          "title": "Variables & Comments in C++ in Hindi | C++ Tutorials for Beginners #3",
+          "topicId": "cpp-basics",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-3"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-4",
+          "index": 4,
+          "videoId": "JrnQ-915czY",
+          "title": "Variable Scope & Data Types in C++ in Hindi | C++ Tutorials for Beginners #4",
+          "topicId": "cpp-basics",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-4"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-5",
+          "index": 5,
+          "videoId": "J05uoTbGOvQ",
+          "title": "C++ Basic Input/Output & More | C++ Tutorials for Beginners #5",
+          "topicId": "cpp-basics",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-5"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-6",
+          "index": 6,
+          "videoId": "7D5A5ZMKRWw",
+          "title": "C++ Header files & Operators | C++ Tutorials for Beginners #6",
+          "topicId": "cpp-basics",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-6"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-7",
+          "index": 7,
+          "videoId": "a7Wim2t053E",
+          "title": "C++ Reference Variables & Typecasting | C++ Tutorials for Beginners #7",
+          "topicId": "cpp-basics",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-7"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-8",
+          "index": 8,
+          "videoId": "i3a-G6Ebh9E",
+          "title": "Constants, Manipulators & Operator Precedence | C++ Tutorials for Beginners #8",
+          "topicId": "cpp-basics",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-8"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-9",
+          "index": 9,
+          "videoId": "AY96XFqb934",
+          "title": "C++ Control Structures, If Else and Switch-Case Statement | C++ Tutorials for Beginners #9",
+          "topicId": "cpp-control",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-9"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-10",
+          "index": 10,
+          "videoId": "a7dfSBrTZtE",
+          "title": "For, While and do-while loops in C++ | C++ Tutorials for Beginners #10",
+          "topicId": "cpp-control",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-10"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-11",
+          "index": 11,
+          "videoId": "DJh5NfK7h-U",
+          "title": "Break and Continue Statements in C++ | C++ Tutorials for Beginners #11",
+          "topicId": "cpp-pointers",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-11"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-12",
+          "index": 12,
+          "videoId": "EvYmTCx9BFs",
+          "title": "Pointers in C++ | C++ Tutorials for Beginners #12",
+          "topicId": "cpp-pointers",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-12"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-13",
+          "index": 13,
+          "videoId": "ePJxpxsnkGw",
+          "title": "Arrays & Pointers Arithmetic in C++ | C++ Tutorials for Beginners #13",
+          "topicId": "cpp-functions",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-13"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-14",
+          "index": 14,
+          "videoId": "jCfR7CFlzts",
+          "title": "Structures, Unions & Enums in C++ | C++ Tutorials for Beginners #14",
+          "topicId": "cpp-functions",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-14"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-15",
+          "index": 15,
+          "videoId": "RFLFX1boGwo",
+          "title": "Functions & Function Prototypes in C++ | C++ Tutorials for Beginners #15",
+          "topicId": "cpp-functions",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-15"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-16",
+          "index": 16,
+          "videoId": "oQbyN-vDghA",
+          "title": "Call by Value & Call by Reference in C++ | C++ Tutorials for Beginners #16",
+          "topicId": "cpp-functions",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-16"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-17",
+          "index": 17,
+          "videoId": "oVvvwEx-gBw",
+          "title": "Inline Functions, Default Arguments & Constant Arguments in C++ | C++ Tutorials for Beginners #17",
+          "topicId": "cpp-functions",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-17"
+            },
+            {
+              "label": "Source Code & Resources",
+              "url": "https://codewithharry.com/videos/cpp-tutorials-in-hindi-16"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-18",
+          "index": 18,
+          "videoId": "JRKs3s15Kjc",
+          "title": "Recursions & Recursive Functions in C++ | C++ Tutorials for Beginners #18",
+          "topicId": "cpp-functions",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-18"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-19",
+          "index": 19,
+          "videoId": "8qZb09suSHY",
+          "title": "Function Overloading with Examples in C++ | C++ Tutorials for Beginners #19",
+          "topicId": "cpp-functions",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-19"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-20",
+          "index": 20,
+          "videoId": "nGJTWaaFdjc",
+          "title": "Object Oriented Programming in C++ | C++ Tutorials for Beginners #20",
+          "topicId": "cpp-functions",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-20"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-21",
+          "index": 21,
+          "videoId": "tL8vnfFFzVQ",
+          "title": "Classes, Public and Private access modifiers in C++ | C++ Tutorials for Beginners #21",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-21"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-22",
+          "index": 22,
+          "videoId": "d363dW0AeS8",
+          "title": "OOPs Recap & Nesting of Member Functions in C++ | C++ Tutorials for Beginners #22",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-22"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-23",
+          "index": 23,
+          "videoId": "qq05D2yFIHA",
+          "title": "C++ Objects Memory Allocation & using Arrays in Classes | C++ Tutorials for Beginners #23",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-23"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-24",
+          "index": 24,
+          "videoId": "QcLI2zGVYFo",
+          "title": "Static Data Members & Methods in C++ OOPS | C++ Tutorials for Beginners #24",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-24"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-25",
+          "index": 25,
+          "videoId": "aKnc1A5NOKo",
+          "title": "Array of Objects & Passing Objects as Function Arguments in C++ | C++ Tutorials for Beginners #25",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-25"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-26",
+          "index": 26,
+          "videoId": "HK6gnkQIgqI",
+          "title": "Friend Functions in C++ | C++ Tutorials for Beginners #26",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-26"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-27",
+          "index": 27,
+          "videoId": "Tk-4KUoatg8",
+          "title": "Friend Classes & Member Friend Functions in C++ | C++ Tutorials for Beginners #27",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-27"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-28",
+          "index": 28,
+          "videoId": "GTJTsMR_fro",
+          "title": "More on C++ Friend Functions (Examples & Explanation) | C++ Tutorials for Beginners #28",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-28"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-29",
+          "index": 29,
+          "videoId": "EEJUPXFKe8Q",
+          "title": "Constructors In C++ | C++ Tutorials for Beginners #29",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-29"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-30",
+          "index": 30,
+          "videoId": "CYXIlh5DURI",
+          "title": "Parameterized and Default Constructors In C++ | C++ Tutorials for Beginners #30",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-30"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-31",
+          "index": 31,
+          "videoId": "7BmtA-7r1Fg",
+          "title": "Constructor Overloading In C++ | C++ Tutorials for Beginners #31",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-31"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-32",
+          "index": 32,
+          "videoId": "Ok-5YqcGl6c",
+          "title": "Constructors With Default Arguments In C++ | C++ Tutorials for Beginners #32",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-32"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-33",
+          "index": 33,
+          "videoId": "c_9oCs-9fvg",
+          "title": "Dynamic Initialization of Objects Using Constructors | C++ Tutorials for Beginners #33",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-33"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-34",
+          "index": 34,
+          "videoId": "jhZjyaNO4Wo",
+          "title": "Copy Constructor in C++ | C++ Tutorials for Beginners #34",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-34"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-35",
+          "index": 35,
+          "videoId": "rm4tGxWBkqs",
+          "title": "Destructor in C++ in Hindi | C++ Tutorials for Beginners #35",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-35"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-36",
+          "index": 36,
+          "videoId": "RO1ZYW9NAzg",
+          "title": "Inheritance & Its Different Types with Examples in C++ | C++ Tutorials for Beginners #36",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-36"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-37",
+          "index": 37,
+          "videoId": "Dmrc82dL7E8",
+          "title": "Inheritance Syntax & Visibility Mode in C++ | C++ Tutorials for Beginners #37",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-37"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-38",
+          "index": 38,
+          "videoId": "S1BR0xDdsyM",
+          "title": "Single Inheritance Deep Dive: Examples + Code | C++ Tutorials for Beginners #38",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-38"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-39",
+          "index": 39,
+          "videoId": "uHkIhwUspdI",
+          "title": "Protected Access Modifier in C++ | C++ Tutorials for Beginners #39",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-39"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-40",
+          "index": 40,
+          "videoId": "BLb6-ZgxqHg",
+          "title": "Multilevel Inheritance Deep Dive with Code Example in C++ | C++ Tutorials for Beginners #40",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-40"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-41",
+          "index": 41,
+          "videoId": "h3INeRqf2vU",
+          "title": "Multiple Inheritance Deep Dive with Code Example in C++ | C++ Tutorials for Beginners #41",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-41"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-42",
+          "index": 42,
+          "videoId": "SW36UpSdmsM",
+          "title": "Exercise on C++ Inheritance | C++ Tutorials for Beginners #42",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-42"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-43",
+          "index": 43,
+          "videoId": "ZqfArYoV9Lg",
+          "title": "Ambiguity Resolution in Inheritance in C++ | C++ Tutorials for Beginners #43",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-43"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-44",
+          "index": 44,
+          "videoId": "kzMQpPX7TUY",
+          "title": "Virtual Base Class in C++ | C++ Tutorials for Beginners #44",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-44"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-45",
+          "index": 45,
+          "videoId": "eYV-TohBaa0",
+          "title": "Code Example Demonstrating Virtual Base Class in C++ | C++ Tutorials for Beginners #45",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-45"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-46",
+          "index": 46,
+          "videoId": "gvOO4H7j_qI",
+          "title": "Constructors in Derived Class in C++ | C++ Tutorials for Beginners #46",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-46"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-47",
+          "index": 47,
+          "videoId": "eGhDSjWGXQc",
+          "title": "Solution to Exercise on Cpp Inheritance | C++ Tutorials for Beginners #47",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-47"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-48",
+          "index": 48,
+          "videoId": "qHrnTf5DOeI",
+          "title": "Code Example: Constructors in Derived Class in Cpp | C++ Tutorials for Beginners #48",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-48"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-49",
+          "index": 49,
+          "videoId": "-Re7K7mHtv4",
+          "title": "Initialization list in Constructors in Cpp | C++ Tutorials for Beginners #49",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-49"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-50",
+          "index": 50,
+          "videoId": "2Y0b9nFA9s8",
+          "title": "Revisiting Pointers: new and delete Keywords in CPP | C++ Tutorials for Beginners #50",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-50"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-51",
+          "index": 51,
+          "videoId": "ANpUQgyRPKk",
+          "title": "Pointers to Objects and Arrow Operator in CPP | C++ Tutorials for Beginners #51",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-51"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-52",
+          "index": 52,
+          "videoId": "OCmCyYxSi2I",
+          "title": "Array of Objects Using Pointers in C++ | C++ Tutorials for Beginners #52",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-52"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-53",
+          "index": 53,
+          "videoId": "cEOfK_L4gGA",
+          "title": "this Pointer in C++ | C++ Tutorials for Beginners #53",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-53"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-54",
+          "index": 54,
+          "videoId": "B-WWdC-H0zw",
+          "title": "Polymorphism in C++ | C++ Tutorials for Beginners #54",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-54"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-55",
+          "index": 55,
+          "videoId": "0YQ_yhX46uk",
+          "title": "Pointers to Derived Classes in C++ | C++ Tutorials for Beginners #55",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-55"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-56",
+          "index": 56,
+          "videoId": "fB3JHNnlRfI",
+          "title": "Virtual Functions in C++ | C++ Tutorials for Beginners #56",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-56"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-57",
+          "index": 57,
+          "videoId": "-noYyWtdXSI",
+          "title": "Virtual Functions Example + Creation Rules in C++ | C++ Tutorials for Beginners #57",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-57"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-58",
+          "index": 58,
+          "videoId": "RBAWWutf0fY",
+          "title": "Abstract Base Class & Pure Virtual Functions in C++ | C++ Tutorials for Beginners #58",
+          "topicId": "cpp-oop",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-58"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-59",
+          "index": 59,
+          "videoId": "Ma0P9T4nTDA",
+          "title": "File I/O in C++: Working with Files | C++ Tutorials for Beginners #59",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-59"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-60",
+          "index": 60,
+          "videoId": "LS1zjr1wog4",
+          "title": "File I/O in C++: Reading and Writing Files | C++ Tutorials for Beginners #60",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-60"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-61",
+          "index": 61,
+          "videoId": "7ku2AQsWwZE",
+          "title": "File I/O in C++: Read/Write in the  Same Program & Closing Files | C++ Tutorials for Beginners #61",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://codewithharry.com/videos/cpp-tutorials-in-hindi-61"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-62",
+          "index": 62,
+          "videoId": "U_w-RfMrX18",
+          "title": "File I/O in C++: open() and eof() functions | C++ Tutorials for Beginners #62",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-62"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-63",
+          "index": 63,
+          "videoId": "kKJeekDKU30",
+          "title": "C++ Templates: Must for Competitive Programming | C++ Tutorials for Beginners #63",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-63"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-64",
+          "index": 64,
+          "videoId": "SuiGXMqGKak",
+          "title": "Writing our First C++ Template in VS Code | C++ Tutorials for Beginners #64",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-64"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-65",
+          "index": 65,
+          "videoId": "8SQL9-cQmsw",
+          "title": "C++ Templates: Templates with Multiple Parameters | C++ Tutorials for Beginners #65",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-65"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-66",
+          "index": 66,
+          "videoId": "IdY8t0n8VBs",
+          "title": "C++ Templates: Class Templates with Default Parameters | C++ Tutorials for Beginners #66",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-66"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-67",
+          "index": 67,
+          "videoId": "YTS0ShpFsrM",
+          "title": "C++ Function Templates & Function Templates with Parameters | C++ Tutorials for Beginners #67",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-67"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-68",
+          "index": 68,
+          "videoId": "Y_RMNcXAM1U",
+          "title": "Member Function Templates & Overloading Template Functions in C++ | C++ Tutorials for Beginners #68",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-68"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-69",
+          "index": 69,
+          "videoId": "c9iREsYpayk",
+          "title": "The C++ Standard Template Library (STL) | C++ Tutorials for Beginners #69",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-69"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-70",
+          "index": 70,
+          "videoId": "m0gnToak2-g",
+          "title": "Containers in C++ STL | C++ Tutorials for Beginners #70",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-70"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-71",
+          "index": 71,
+          "videoId": "wKDvMcJiEPM",
+          "title": "Vector In C++ STL | C++ Tutorials for Beginners #71",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-71"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-72",
+          "index": 72,
+          "videoId": "OI4CXwpMBhE",
+          "title": "List In C++ STL | C++ Tutorials for Beginners #72",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-72"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-73",
+          "index": 73,
+          "videoId": "KwS-Vbsha1k",
+          "title": "Map In C++ STL | C++ Tutorials for Beginners #73",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-73"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwc-74",
+          "index": 74,
+          "videoId": "g4AQiptpcI8",
+          "title": "Function Objects (Functors) In C++ STL | C++ Tutorials for Beginners #74",
+          "topicId": "cpp-advanced",
+          "notes": [
+            {
+              "label": "Source Code & Resources",
+              "url": "https://archive.codewithharry.com/videos/cpp-tutorials-in-hindi-74"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        }
+      ]
+    },
+    "dsa": {
+      "topics": [
+        {
+          "id": "dsa-intro",
+          "title": "Introduction & Complexity",
+          "emoji": "📊"
+        },
+        {
+          "id": "dsa-arrays",
+          "title": "Arrays & Searching",
+          "emoji": "📦"
+        },
+        {
+          "id": "dsa-linked-list",
+          "title": "Linked Lists",
+          "emoji": "⛓️"
+        },
+        {
+          "id": "dsa-stack-queue",
+          "title": "Stacks & Queues",
+          "emoji": "🚶"
+        },
+        {
+          "id": "dsa-sorting",
+          "title": "Sorting Algorithms",
+          "emoji": "🔀"
+        },
+        {
+          "id": "dsa-trees",
+          "title": "Trees, BST & Graphs",
+          "emoji": "🌳"
+        },
+        {
+          "id": "dsa-hashing",
+          "title": "Hashing",
+          "emoji": "🔷"
+        }
+      ],
+      "lectures": [
+        {
+          "id": "hwd-1",
+          "index": 1,
+          "videoId": "5_5oE5lgrhw",
+          "title": "Introduction to Data Structures & Algorithms",
+          "topicId": "dsa-intro",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-1"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-2",
+          "index": 2,
+          "videoId": "vgSKOMsjLbc",
+          "title": "Time Complexity and Big O Notation (with notes)",
+          "topicId": "dsa-intro",
+          "notes": [
+            {
+              "label": "Notes",
+              "url": "https://www.codewithharry.com/notes/"
+            },
+            {
+              "label": "Download Time Complexity Hand Written Notes",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-2"
+            },
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://codewithharry.com/videos/data-structures-and-algorithms-in-hindi-2"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-3",
+          "index": 3,
+          "videoId": "1OTX-WXQHCQ",
+          "title": "Asymptotic Notations: Big O, Big Omega and Big Theta Explained (With Notes)",
+          "topicId": "dsa-intro",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://codewithharry.com/notes"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-4",
+          "index": 4,
+          "videoId": "5g7K86jYto8",
+          "title": "Best Case, Worst Case and Average Case Analysis of an Algorithm (With Notes)",
+          "topicId": "dsa-intro",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-4"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-5",
+          "index": 5,
+          "videoId": "STL8ESuETmM",
+          "title": "How to Calculate Time Complexity of an Algorithm + Solved Questions (With Notes)",
+          "topicId": "dsa-intro",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-5"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-6",
+          "index": 6,
+          "videoId": "bR0NYdmMg94",
+          "title": "Arrays and Abstract Data Type in Data Structure (With Notes)",
+          "topicId": "dsa-arrays",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-6"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-7",
+          "index": 7,
+          "videoId": "-sktNalfrE0",
+          "title": "Array as An Abstract Data Type in Data Structures(With Notes)",
+          "topicId": "dsa-arrays",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-7"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-8",
+          "index": 8,
+          "videoId": "JqvobBKLHwU",
+          "title": "Implementing Array as an Abstract Data Type in C Language",
+          "topicId": "dsa-arrays",
+          "notes": [
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-9",
+          "index": 9,
+          "videoId": "p5TDnxAYAZY",
+          "title": "Operations on Arrays in Data Structures: Traversal, Insertion, Deletion and Searching",
+          "topicId": "dsa-arrays",
+          "notes": [
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-10",
+          "index": 10,
+          "videoId": "o9WevKSnHL4",
+          "title": "Coding Insertion Operation in Array in Data Structures in C language",
+          "topicId": "dsa-arrays",
+          "notes": [
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-11",
+          "index": 11,
+          "videoId": "2jVcRw1jP9I",
+          "title": "Coding Deletion Operation in Array Using C Language (With Notes)",
+          "topicId": "dsa-arrays",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-11"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-12",
+          "index": 12,
+          "videoId": "ZHCP9vFOJiU",
+          "title": "Linear Vs Binary Search + Code in C Language (With Notes)",
+          "topicId": "dsa-arrays",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-12"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-13",
+          "index": 13,
+          "videoId": "TWMCMvfEAv4",
+          "title": "Introduction to Linked List in Data Structures (With Notes)",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-13"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-14",
+          "index": 14,
+          "videoId": "BHphhqL9EOE",
+          "title": "Linked List Data Structure: Creation and Traversal in C Language",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-14"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-15",
+          "index": 15,
+          "videoId": "ewCc7O2K5SM",
+          "title": "Insertion of a Node in a Linked List Data Structure",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-15"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-16",
+          "index": 16,
+          "videoId": "_PuIzVqJJbA",
+          "title": "Insertion in a Linked List in C Language",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-16"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-17",
+          "index": 17,
+          "videoId": "R_7qJzAWrMg",
+          "title": "Deletion in a Linked List | Deleting a node from Linked List Data Structure",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-17"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-18",
+          "index": 18,
+          "videoId": "UQIJNobtzVY",
+          "title": "Delete a Node from Linked List (C Code For Deletion From Beginning, End, Specified Position & Key)",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-18"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-19",
+          "index": 19,
+          "videoId": "41lXYJID3OQ",
+          "title": "Circular Linked List and Operations in Data Structures (With Notes)",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-19"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-20",
+          "index": 20,
+          "videoId": "UclZxvnOQZc",
+          "title": "Circular Linked Lists: Operations in C Language",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-20"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-21",
+          "index": 21,
+          "videoId": "63HJ2-jV6Mk",
+          "title": "Doubly Linked Lists Explained With Code in C Language",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-21"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-22",
+          "index": 22,
+          "videoId": "-n2rVJE4vto",
+          "title": "Introduction to Stack in Data Structures",
+          "topicId": "dsa-linked-list",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-22"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-23",
+          "index": 23,
+          "videoId": "MD3mFgFwqBE",
+          "title": "Implementing Stack Using Array in Data Structures",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-23"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-24",
+          "index": 24,
+          "videoId": "r2yHEW8HmBE",
+          "title": "C Code For Implementing Stack Using Array in Data Structures",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-24"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-25",
+          "index": 25,
+          "videoId": "sN1oUrR7foM",
+          "title": "Push, Pop and Other Operations in Stack Implemented Using an Array",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-25"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-26",
+          "index": 26,
+          "videoId": "JhHJf93Ft8M",
+          "title": "Coding Push(), Pop(), isEmpty() and isFull() Operations in Stack Using an Array| C Code For Stack",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-26"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-27",
+          "index": 27,
+          "videoId": "UM_UcLNFc_o",
+          "title": "Peek Operation in Stack Using Arrays (With C Code & Explanation)",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-27"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-28",
+          "index": 28,
+          "videoId": "AW09Wnmz4-4",
+          "title": "stackTop, stackBottom & Time Complexity of Operations in Stack Using Arrays",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-28"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-29",
+          "index": 29,
+          "videoId": "b749wwxlQmA",
+          "title": "How to Implement Stack Using Linked List?",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-29"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-30",
+          "index": 30,
+          "videoId": "0BTDISr-8xU",
+          "title": "Implementing all the Stack Operations using Linked List (With Code in C)",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-30"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-31",
+          "index": 31,
+          "videoId": "xKJkqzKCxmY",
+          "title": "peek(), stackTop() and Other Operations on Stack Using Linked List (with C Code)",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-31"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-32",
+          "index": 32,
+          "videoId": "D3M3PEcgdV4",
+          "title": "Parenthesis Matching Problem Using Stack Data Structure (Applications of Stack)",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-32"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-33",
+          "index": 33,
+          "videoId": "Wj_Xtj6so3U",
+          "title": "Parenthesis Checking Using Stack in C Language",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-33"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-34",
+          "index": 34,
+          "videoId": "QURbEGE-F_Y",
+          "title": "Multiple Parenthesis Matching Using Stack with C Code",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-34"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-35",
+          "index": 35,
+          "videoId": "422Q_yx2yA8",
+          "title": "Infix, Prefix and Postfix Expressions",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-35"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-36",
+          "index": 36,
+          "videoId": "_abDDg0Jw94",
+          "title": "Infix To Postfix Using Stack",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-36"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-37",
+          "index": 37,
+          "videoId": "6RmrX2uqllY",
+          "title": "Coding Infix to Postfix in C using Stack",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-37"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-38",
+          "index": 38,
+          "videoId": "UbAEP7P0vfk",
+          "title": "Queue Data Structure in Hindi",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-38"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-39",
+          "index": 39,
+          "videoId": "EyxBMLZdgvc",
+          "title": "Queue Implementation: Array Implementation of Queue in Data Structure",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-39"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-40",
+          "index": 40,
+          "videoId": "JlZX7xIBjl0",
+          "title": "Array implementation of Queue and its Operations in Data Structure",
+          "topicId": "dsa-stack-queue",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-40"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-41",
+          "index": 41,
+          "videoId": "FuQdtKry3ss",
+          "title": "C Code For Queue and its Operations Using Arrays in Data Structure",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-41"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-42",
+          "index": 42,
+          "videoId": "KqTJ5MAUj80",
+          "title": "Introduction to Circular Queue in Data Structures",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-42"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-43",
+          "index": 43,
+          "videoId": "rtxjrVpWVmI",
+          "title": "enqueue(), dequeue() & other Operations on Circular Queue",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-43"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-44",
+          "index": 44,
+          "videoId": "lQBRjdPFF4w",
+          "title": "C Code For Circular Queue & Operations on Circular Queue in Hindi",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-44"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-45",
+          "index": 45,
+          "videoId": "LwYQo8mVPBs",
+          "title": "Queue Using Linked Lists",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-45"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-46",
+          "index": 46,
+          "videoId": "iXpPL80-MGs",
+          "title": "Implementing Queue Using Linked List in C Language (With Code)",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-46"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-47",
+          "index": 47,
+          "videoId": "OnlgK0gjtB8",
+          "title": "Double-Ended Queue in Data Structure (DE-Queue Explained)🔥",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-47"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-48",
+          "index": 48,
+          "videoId": "ByLlEk7zmyw",
+          "title": "Introduction to Sorting Algorithms",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-48"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-49",
+          "index": 49,
+          "videoId": "tBiSx0PrB4g",
+          "title": "Criteria For Analysis of Sorting Algorithms",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-49"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-50",
+          "index": 50,
+          "videoId": "BJkpnxf5cfY",
+          "title": "Bubble Sort Algorithm in Hindi",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-50"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-51",
+          "index": 51,
+          "videoId": "CkXjf6_8DLU",
+          "title": "Bubble Sort Program in C",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-51"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-52",
+          "index": 52,
+          "videoId": "8l3dH_XyCik",
+          "title": "Insertion Sort Algorithm in Hindi",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-52"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-53",
+          "index": 53,
+          "videoId": "XBfH1Qy1JGY",
+          "title": "Insertion Sort in C Language (With Explanation)",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-53"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-54",
+          "index": 54,
+          "videoId": "Jb8AYaYMxq4",
+          "title": "Selection Sort Algorithm",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-54"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-55",
+          "index": 55,
+          "videoId": "slXyQKww0-E",
+          "title": "Selection Sort Program in C",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-55"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-56",
+          "index": 56,
+          "videoId": "SN4x87ZdhGg",
+          "title": "QuickSort Algorithm in Hindi (With Code in C)",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-56"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-57",
+          "index": 57,
+          "videoId": "xqdTr7xs8QU",
+          "title": "Analysis of QuickSort Sorting Algorithm",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-57"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-58",
+          "index": 58,
+          "videoId": "6Aqxv29RGPc",
+          "title": "MergeSort Sorting Algorithm in Hindi",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-58"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-59",
+          "index": 59,
+          "videoId": "ytK4Biw-CW4",
+          "title": "MergeSort Source Code in C (Helpful Explanation)",
+          "topicId": "dsa-sorting",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-59"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-60",
+          "index": 60,
+          "videoId": "HkvChUv9dDg",
+          "title": "Count Sort Algorithm",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-60"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-61",
+          "index": 61,
+          "videoId": "oI0QhFzBSRo",
+          "title": "Introduction to Trees",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-61"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-62",
+          "index": 62,
+          "videoId": "j8b4ZnZefBo",
+          "title": "What is a Binary Tree?",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-62"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-63",
+          "index": 63,
+          "videoId": "SCjfVE3bFik",
+          "title": "Types of Binary Trees",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-63"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-64",
+          "index": 64,
+          "videoId": "Albe808b8FE",
+          "title": "Representation of a Binary Tree",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-64"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-65",
+          "index": 65,
+          "videoId": "P892nBTmpDQ",
+          "title": "Linked Representation Of Binary Tree in C",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-65"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-66",
+          "index": 66,
+          "videoId": "UbwkQmCWcDM",
+          "title": "Traversal in Binary Tree (InOrder, PostOrder and PreOrder Traversals)",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-66"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-67",
+          "index": 67,
+          "videoId": "VNegW_7OLS4",
+          "title": "Preorder Traversal in a Binary Tree (With C Code)",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-67"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-68",
+          "index": 68,
+          "videoId": "PulGSuAmFJM",
+          "title": "PostOrder Traversal in a Binary Tree (With C Code)",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-68"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-69",
+          "index": 69,
+          "videoId": "X1_0wQb8lDM",
+          "title": "InOrder Traversal in a Binary Tree (With C Code)",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-69"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-70",
+          "index": 70,
+          "videoId": "IqVCDZlciDU",
+          "title": "*Best* Trick To Find PreOrder, InOrder & PostOrder Traversal",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-70"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-71",
+          "index": 71,
+          "videoId": "XQJJhNiGlL0",
+          "title": "Binary Search Trees: Introduction & Properties",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-71"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-72",
+          "index": 72,
+          "videoId": "hE2EWEqqIKk",
+          "title": "Checking if a binary tree is a binary search tree or not!",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-72"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-73",
+          "index": 73,
+          "videoId": "OKXI2woGoeg",
+          "title": "Searching in a Binary Search Trees (Search Operation)",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-73"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-74",
+          "index": 74,
+          "videoId": "ZFdmR-MJVkc",
+          "title": "C Code For Searching in a BST",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-74"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-75",
+          "index": 75,
+          "videoId": "47sNttolDNE",
+          "title": "Iterative Search in a Binary Search Tree",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-75"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-76",
+          "index": 76,
+          "videoId": "ZxPePWp0n3Y",
+          "title": "Insertion in a Binary Search Tree",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Download Source Code & Notes here",
+              "url": "https://archive.codewithharry.com/videos/data-structures-and-algorithms-in-hindi-76"
+            },
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-77",
+          "index": 77,
+          "videoId": "VXnlt8qChPQ",
+          "title": "Deletion in a Binary Search Tree",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-78",
+          "index": 78,
+          "videoId": "qqzaCS3s3Ac",
+          "title": "C Code For Deletion in a Binary Search Tree",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-79",
+          "index": 79,
+          "videoId": "npnAlIbyknI",
+          "title": "AVL Trees - Introduction",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-80",
+          "index": 80,
+          "videoId": "CYTjKQ7ektU",
+          "title": "Insertion and Rotation in AVL Tree",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-81",
+          "index": 81,
+          "videoId": "MNGIzdNPQl4",
+          "title": "AVL Trees - LL LR RL and RR rotations",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Website (created using Flask)",
+              "url": "http://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-82",
+          "index": 82,
+          "videoId": "Wdy36bumttg",
+          "title": "C Code For AVL Tree Insertion & Rotation (LL, RR, LR & RL Rotation)",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "All the source code and other material will be uploaded on  as and when avail…",
+              "url": "https://codewithharry.com"
+            },
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-83",
+          "index": 83,
+          "videoId": "TwdjOQMTaQ4",
+          "title": "Introduction to Graphs | Graph Data Structure",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "All the source code and other material will be uploaded on  as and when avail…",
+              "url": "https://codewithharry.com"
+            },
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-84",
+          "index": 84,
+          "videoId": "SwUNIiV6ePg",
+          "title": "Representation of Graphs - Adjacency List, Adjacency Matrix & Other Representations",
+          "topicId": "dsa-trees",
+          "notes": [
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-85",
+          "index": 85,
+          "videoId": "IF3BSU70EZo",
+          "title": "Graph traversal & Graph traversal algorithms",
+          "topicId": "dsa-hashing",
+          "notes": [
+            {
+              "label": "All the source code and other material will be uploaded on  as and when avail…",
+              "url": "https://codewithharry.com"
+            },
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-86",
+          "index": 86,
+          "videoId": "6dWUABpUky4",
+          "title": "Breadth First Search (BFS) Graph Traversal in Data Structures",
+          "topicId": "dsa-hashing",
+          "notes": [
+            {
+              "label": "All the source code and other material will be uploaded on  as and when avail…",
+              "url": "https://codewithharry.com"
+            },
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-87",
+          "index": 87,
+          "videoId": "_G3zzPOz61A",
+          "title": "BFS Implementation in C | C Code For Breadth First Search",
+          "topicId": "dsa-hashing",
+          "notes": [
+            {
+              "label": "All the source code and other material will be uploaded on  as and when avail…",
+              "url": "https://codewithharry.com"
+            },
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-88",
+          "index": 88,
+          "videoId": "4M1u4-eGlxU",
+          "title": "Depth First Search (DFS) Graph Traversal in Data Structures",
+          "topicId": "dsa-hashing",
+          "notes": [
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-89",
+          "index": 89,
+          "videoId": "jQmlXAwUvZ4",
+          "title": "DFS Implementation in C | C Code For Depth First Search",
+          "topicId": "dsa-hashing",
+          "notes": [
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-90",
+          "index": 90,
+          "videoId": "91Q3GlQugwc",
+          "title": "Spanning Trees & maximum no of possible spanning trees for complete graphs",
+          "topicId": "dsa-hashing",
+          "notes": [
+            {
+              "label": "All the source code and other material will be uploaded on  as and when avail…",
+              "url": "https://codewithharry.com"
+            },
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-91",
+          "index": 91,
+          "videoId": "luZNlCDJInM",
+          "title": "Calculating Spanning tree Cost & Minimum Spanning Tree",
+          "topicId": "dsa-hashing",
+          "notes": [
+            {
+              "label": "All the source code and other material will be uploaded on  as and when avail…",
+              "url": "https://codewithharry.com"
+            },
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        },
+        {
+          "id": "hwd-92",
+          "index": 92,
+          "videoId": "-_SzHb_ntHc",
+          "title": "Prims Minimum Spanning Tree Algorithm (Step by Step with examples)",
+          "topicId": "dsa-hashing",
+          "notes": [
+            {
+              "label": "All the source code and other material will be uploaded on  as and when avail…",
+              "url": "https://codewithharry.com"
+            },
+            {
+              "label": "Website (created using Django Rest & Angular)",
+              "url": "https://www.codewithharry.com"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

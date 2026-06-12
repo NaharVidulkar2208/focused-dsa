@@ -1,71 +1,32 @@
 import { useMemo } from "react";
-import { useQuery } from "@tanstack/react-query";
-import { fetchHarryPlaylist } from "@/lib/harry-playlists.functions";
 import {
+  getWingData,
   type HarryLecture,
   type HarryTopic,
-  HARRY_JAVA_LECTURES, HARRY_JAVA_TOPICS,
-  HARRY_CPP_LECTURES,  HARRY_CPP_TOPICS,
-  HARRY_DSA_LECTURES,  HARRY_DSA_TOPICS,
-} from "@/lib/harry-content";
+  type HarryWing,
+} from "@/lib/harry-data";
 
-type Track = "java" | "cpp" | "dsa";
+/**
+ * Returns the wing (Core language + DSA) reading entirely from local
+ * generated metadata. No network calls — re-run `scripts/sync-harry-content.mjs`
+ * to refresh content.
+ */
+export function useHarryLectures(wing: HarryWing) {
+  const { lectures, topics: allTopics } = useMemo(() => getWingData(wing), [wing]);
 
-const FALLBACKS: Record<Track, HarryLecture[]> = {
-  java: HARRY_JAVA_LECTURES.filter((l) => l.videoId !== "TODO"),
-  cpp:  HARRY_CPP_LECTURES.filter((l)  => l.videoId !== "TODO"),
-  dsa:  HARRY_DSA_LECTURES.filter((l)  => l.videoId !== "TODO"),
-};
+  const byTopic = useMemo<Record<string, HarryLecture[]>>(
+    () =>
+      allTopics.reduce((acc, t) => {
+        acc[t.id] = lectures.filter((l) => l.topicId === t.id);
+        return acc;
+      }, {} as Record<string, HarryLecture[]>),
+    [lectures, allTopics],
+  );
 
-const TOPICS: Record<Track, HarryTopic[]> = {
-  java: HARRY_JAVA_TOPICS,
-  cpp:  HARRY_CPP_TOPICS,
-  dsa:  HARRY_DSA_TOPICS,
-};
-
-export function useHarryLectures(track: Track) {
-  const query = useQuery({
-    queryKey: ["harry-playlist", track],
-    queryFn: () => fetchHarryPlaylist({ data: { track } }),
-    staleTime: 6 * 60 * 60 * 1000,
-    gcTime: 24 * 60 * 60 * 1000,
-    retry: 1,
-  });
-
-  const lectures: HarryLecture[] = useMemo(() => {
-    if (query.data && query.data.length > 0) {
-      return query.data.map((l) => ({
-        id: l.id,
-        videoId: l.videoId,
-        title: l.title,
-        duration: l.duration,
-        topicId: l.topicId,
-        section: l.section,
-        wing: l.wing,
-      }));
-    }
-    return FALLBACKS[track];
-  }, [query.data, track]);
-
-  const allTopics = TOPICS[track];
-
-  const byTopic = useMemo<Record<string, HarryLecture[]>>(() => {
-    return allTopics.reduce((acc, t) => {
-      acc[t.id] = lectures.filter((l) => l.topicId === t.id);
-      return acc;
-    }, {} as Record<string, HarryLecture[]>);
-  }, [lectures, allTopics]);
-
-  const topics = useMemo(
+  const topics: HarryTopic[] = useMemo(
     () => allTopics.filter((t) => (byTopic[t.id]?.length ?? 0) > 0),
     [allTopics, byTopic],
   );
 
-  return {
-    lectures,
-    topics,
-    byTopic,
-    isLoading: query.isLoading && lectures.length === 0,
-    isFromApi: !!query.data && query.data.length > 0,
-  };
+  return { lectures, topics, byTopic, isLoading: false, isFromApi: false };
 }

@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 import { ArrowLeft, PlayCircle, BookOpen, ChevronRight, CheckCircle2, Layers } from "lucide-react";
 import { AccountMenu } from "@/components/account-menu";
 import {
-  HARRY_JAVA_TOPICS, HARRY_CPP_TOPICS, HARRY_DSA_TOPICS,
-  HARRY_JAVA_PROGRESS_KEY, HARRY_CPP_PROGRESS_KEY, HARRY_DSA_PROGRESS_KEY,
+  HARRY_JAVA_PROGRESS_KEY, HARRY_CPP_PROGRESS_KEY,
 } from "@/lib/harry-content";
 import { useHarryLectures } from "@/hooks/use-harry-lectures";
 
@@ -31,25 +30,20 @@ function HarryHome() {
 
   const [javaDone, setJavaDone] = useState(0);
   const [cppDone, setCppDone] = useState(0);
-  const [dsaDone, setDsaDone] = useState(0);
   const javaData = useHarryLectures("java");
   const cppData = useHarryLectures("cpp");
-  const dsaData = useHarryLectures("dsa");
 
   useEffect(() => {
     setJavaDone(readCount(HARRY_JAVA_PROGRESS_KEY));
     setCppDone(readCount(HARRY_CPP_PROGRESS_KEY));
-    setDsaDone(readCount(HARRY_DSA_PROGRESS_KEY));
   }, []);
 
   const javaLastId = (() => { try { return localStorage.getItem(HARRY_JAVA_PROGRESS_KEY.replace("progress", "last")); } catch { return null; } })();
-  const dsaLastId = (() => { try { return localStorage.getItem(HARRY_DSA_PROGRESS_KEY.replace("progress", "last")); } catch { return null; } })();
 
   const javaTotal = javaData.lectures.length;
   const cppTotal = cppData.lectures.length;
-  const dsaTotal = dsaData.lectures.length;
-  const totalAll = javaTotal + cppTotal + dsaTotal;
-  const doneAll = javaDone + cppDone + dsaDone;
+  const totalAll = javaTotal + cppTotal;
+  const doneAll = javaDone + cppDone;
 
   return (
     <div className="flex h-screen flex-col overflow-hidden bg-zinc-950">
@@ -98,7 +92,7 @@ function HarryHome() {
               <div className="flex items-center gap-1.5">
                 <Layers className="h-3.5 w-3.5 text-zinc-400" />
                 <span>
-                  {HARRY_JAVA_TOPICS.length + HARRY_CPP_TOPICS.length + HARRY_DSA_TOPICS.length} topics
+                  {javaData.topics.length + cppData.topics.length} topics
                 </span>
               </div>
               <div className="flex items-center gap-1.5">
@@ -123,57 +117,40 @@ function HarryHome() {
         </div>
 
         <div className="mx-auto max-w-3xl px-4 pb-16">
-          {/* ── Choose Track ───────────────────────────────────────── */}
+          {/* ── Choose Wing ────────────────────────────────────────── */}
           <section>
             <h2 className="text-xs font-semibold uppercase tracking-widest text-zinc-500 mb-4">
-              Language Tracks
+              Learning Wings
             </h2>
+            <p className="text-xs text-zinc-500 mb-4">
+              DSA is integrated into both wings. Pick the language you prefer — the DSA track travels with it.
+            </p>
             <div className="grid gap-4 sm:grid-cols-2">
               <TrackCard
                 href="/harry/java"
                 accent="amber"
-                label="Java + DSA"
-                tagline="Complete Java from scratch to OOP, Collections, and DSA integration."
-                topics={HARRY_JAVA_TOPICS.length}
+                label="DSA with Java"
+                tagline="Core Java foundations followed by the full DSA curriculum in one path."
+                topics={javaData.topics.length}
                 total={javaTotal}
                 done={javaDone}
                 lastId={javaLastId}
                 resumeTo="/harry/java"
-                what={["Variables, types & control flow", "OOP — classes, inheritance", "Arrays, methods & recursion", "DSA integration"]}
+                what={["Core Java + OOP", "Collections & Exceptions", "Arrays, Trees, Graphs", "Sorting, Searching & DP"]}
               />
               <TrackCard
                 href="/harry/cpp"
                 accent="orange"
-                label="C++ + DSA"
-                tagline="Master C++ from basics through pointers, OOP, and the STL."
-                topics={HARRY_CPP_TOPICS.length}
+                label="DSA with C++"
+                tagline="C++ from basics through STL, then the full DSA curriculum in one path."
+                topics={cppData.topics.length}
                 total={cppTotal}
                 done={cppDone}
                 lastId={null}
                 resumeTo="/harry/cpp"
-                what={["Variables, operators & I/O", "Conditions, loops & patterns", "Pointers & memory model", "OOP in C++ + STL"]}
+                what={["Core C++ + Pointers", "OOP & STL", "Arrays, Trees, Graphs", "Sorting, Searching & DP"]}
               />
             </div>
-          </section>
-
-          {/* ── Shared DSA ─────────────────────────────────────────── */}
-          <section className="mt-8">
-            <h2 className="text-xs font-semibold uppercase tracking-widest text-zinc-500 mb-4">
-              Shared DSA Track
-            </h2>
-            <TrackCard
-              href="/harry/dsa"
-              accent="emerald"
-              label="Data Structures & Algorithms"
-              tagline="Language-agnostic DSA — sorting, trees, graphs, heaps, dynamic programming and more."
-              topics={HARRY_DSA_TOPICS.length}
-              total={dsaTotal}
-              done={dsaDone}
-              lastId={dsaLastId}
-              resumeTo="/harry/dsa"
-              wide
-              what={["Complexity analysis", "Sorting & searching", "Trees, Graphs & Heaps", "DP & advanced topics"]}
-            />
           </section>
 
           {/* ── Notes & Assignments ────────────────────────────────── */}
