@@ -22,7 +22,6 @@ import { Route as HarryCppRouteImport } from './routes/harry.cpp'
 import { Route as CourseLectureIdRouteImport } from './routes/course.$lectureId'
 import { Route as ApnaLectureIdRouteImport } from './routes/apna.$lectureId'
 import { Route as HarryJavaLectureIdRouteImport } from './routes/harry.java.$lectureId'
-import { Route as HarryDsaLectureIdRouteImport } from './routes/harry.dsa.$lectureId'
 import { Route as HarryCppLectureIdRouteImport } from './routes/harry.cpp.$lectureId'
 
 const NotesRoute = NotesRouteImport.update({
@@ -90,11 +89,6 @@ const HarryJavaLectureIdRoute = HarryJavaLectureIdRouteImport.update({
   path: '/$lectureId',
   getParentRoute: () => HarryJavaRoute,
 } as any)
-const HarryDsaLectureIdRoute = HarryDsaLectureIdRouteImport.update({
-  id: '/dsa/$lectureId',
-  path: '/dsa/$lectureId',
-  getParentRoute: () => HarryRoute,
-} as any)
 const HarryCppLectureIdRoute = HarryCppLectureIdRouteImport.update({
   id: '/$lectureId',
   path: '/$lectureId',
@@ -115,7 +109,6 @@ export interface FileRoutesByFullPath {
   '/harry/java': typeof HarryJavaRouteWithChildren
   '/harry/notes': typeof HarryNotesRoute
   '/harry/cpp/$lectureId': typeof HarryCppLectureIdRoute
-  '/harry/dsa/$lectureId': typeof HarryDsaLectureIdRoute
   '/harry/java/$lectureId': typeof HarryJavaLectureIdRoute
 }
 export interface FileRoutesByTo {
@@ -132,7 +125,6 @@ export interface FileRoutesByTo {
   '/harry/java': typeof HarryJavaRouteWithChildren
   '/harry/notes': typeof HarryNotesRoute
   '/harry/cpp/$lectureId': typeof HarryCppLectureIdRoute
-  '/harry/dsa/$lectureId': typeof HarryDsaLectureIdRoute
   '/harry/java/$lectureId': typeof HarryJavaLectureIdRoute
 }
 export interface FileRoutesById {
@@ -150,7 +142,6 @@ export interface FileRoutesById {
   '/harry/java': typeof HarryJavaRouteWithChildren
   '/harry/notes': typeof HarryNotesRoute
   '/harry/cpp/$lectureId': typeof HarryCppLectureIdRoute
-  '/harry/dsa/$lectureId': typeof HarryDsaLectureIdRoute
   '/harry/java/$lectureId': typeof HarryJavaLectureIdRoute
 }
 export interface FileRouteTypes {
@@ -169,7 +160,6 @@ export interface FileRouteTypes {
     | '/harry/java'
     | '/harry/notes'
     | '/harry/cpp/$lectureId'
-    | '/harry/dsa/$lectureId'
     | '/harry/java/$lectureId'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -186,7 +176,6 @@ export interface FileRouteTypes {
     | '/harry/java'
     | '/harry/notes'
     | '/harry/cpp/$lectureId'
-    | '/harry/dsa/$lectureId'
     | '/harry/java/$lectureId'
   id:
     | '__root__'
@@ -203,7 +192,6 @@ export interface FileRouteTypes {
     | '/harry/java'
     | '/harry/notes'
     | '/harry/cpp/$lectureId'
-    | '/harry/dsa/$lectureId'
     | '/harry/java/$lectureId'
   fileRoutesById: FileRoutesById
 }
@@ -310,13 +298,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HarryJavaLectureIdRouteImport
       parentRoute: typeof HarryJavaRoute
     }
-    '/harry/dsa/$lectureId': {
-      id: '/harry/dsa/$lectureId'
-      path: '/dsa/$lectureId'
-      fullPath: '/harry/dsa/$lectureId'
-      preLoaderRoute: typeof HarryDsaLectureIdRouteImport
-      parentRoute: typeof HarryRoute
-    }
     '/harry/cpp/$lectureId': {
       id: '/harry/cpp/$lectureId'
       path: '/$lectureId'
@@ -376,14 +357,12 @@ interface HarryRouteChildren {
   HarryCppRoute: typeof HarryCppRouteWithChildren
   HarryJavaRoute: typeof HarryJavaRouteWithChildren
   HarryNotesRoute: typeof HarryNotesRoute
-  HarryDsaLectureIdRoute: typeof HarryDsaLectureIdRoute
 }
 
 const HarryRouteChildren: HarryRouteChildren = {
   HarryCppRoute: HarryCppRouteWithChildren,
   HarryJavaRoute: HarryJavaRouteWithChildren,
   HarryNotesRoute: HarryNotesRoute,
-  HarryDsaLectureIdRoute: HarryDsaLectureIdRoute,
 }
 
 const HarryRouteWithChildren = HarryRoute._addFileChildren(HarryRouteChildren)
@@ -400,3 +379,13 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
