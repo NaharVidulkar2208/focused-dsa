@@ -13,7 +13,6 @@ import { APNA_LECTURES, APNA_PROGRESS_KEY, APNA_TOPICS } from "@/lib/apna-conten
 import {
   HARRY_JAVA_PROGRESS_KEY,
   HARRY_CPP_PROGRESS_KEY,
-  HARRY_DSA_PROGRESS_KEY,
 } from "@/lib/harry-content";
 import { useHarryLectures } from "@/hooks/use-harry-lectures";
 
