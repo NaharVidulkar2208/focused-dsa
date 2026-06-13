@@ -7,9 +7,10 @@ import { toast } from "sonner";
 import { AccountMenu } from "@/components/account-menu";
 import { BottomNav } from "@/components/bottom-nav";
 import { VideoPlayer } from "@/components/video-player";
+import { Brand } from "@/components/brand";
 import {
   CheckCircle2, Circle, ChevronLeft, ChevronRight, Loader2,
-  Sparkles, PlayCircle, Search, Menu, X, ArrowLeft,
+  PlayCircle, Search, Menu, X, ArrowLeft,
 } from "lucide-react";
 
 const GUEST_LECTURE_KEY = "lectures-guest-progress";
