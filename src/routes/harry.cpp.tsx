@@ -20,7 +20,7 @@ import { useHarryLectures } from "@/hooks/use-harry-lectures";
 export const Route = createFileRoute("/harry/cpp")({
   head: () => ({
     meta: [
-      { title: "C++ + DSA — CodeWithHarry · DSA Focus" },
+      { title: "C++ + DSA — CodeWithHarry · Focused" },
       { name: "description", content: "CodeWithHarry's complete C++ tutorial — topic-wise." },
     ],
   }),

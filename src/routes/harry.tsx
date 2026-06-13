@@ -10,7 +10,7 @@ import { useHarryLectures } from "@/hooks/use-harry-lectures";
 export const Route = createFileRoute("/harry")({
   head: () => ({
     meta: [
-      { title: "CodeWithHarry · DSA Focus" },
+      { title: "CodeWithHarry · Focused" },
       { name: "description", content: "CodeWithHarry's Java, C++ and DSA tracks — all in one place." },
     ],
   }),
@@ -69,11 +69,11 @@ function HarryHome() {
               className="h-full w-full object-cover object-center opacity-25"
               onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-amber-950/60 via-zinc-950/80 to-zinc-950" />
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-950/70 via-zinc-950/85 to-zinc-950" />
           </div>
           <div className="relative mx-auto max-w-3xl px-4 py-10 sm:py-14">
-            <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-[11px] font-medium text-amber-300 mb-4">
-              <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
+            <div className="inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-500/10 px-3 py-1 text-[11px] font-medium text-blue-200 mb-4">
+              <span className="h-1.5 w-1.5 rounded-full bg-blue-300 animate-pulse" />
               CodeWithHarry
             </div>
             <h1 className="text-2xl font-bold tracking-tight text-zinc-50 sm:text-3xl">
@@ -106,7 +106,7 @@ function HarryHome() {
               <div className="mt-4 flex items-center gap-3">
                 <div className="h-1.5 w-40 overflow-hidden rounded-full bg-white/10">
                   <div
-                    className="h-full rounded-full bg-gradient-to-r from-amber-400 to-zinc-300 transition-all"
+                    className="h-full rounded-full bg-gradient-to-r from-white to-blue-400 transition-all"
                     style={{ width: `${Math.round((doneAll / totalAll) * 100)}%` }}
                   />
                 </div>
@@ -128,7 +128,7 @@ function HarryHome() {
             <div className="grid gap-4 sm:grid-cols-2">
               <TrackCard
                 href="/harry/java"
-                accent="amber"
+                accent="blue"
                 label="DSA with Java"
                 tagline="Core Java foundations followed by the full DSA curriculum in one path."
                 topics={javaData.topics.length}
@@ -140,7 +140,7 @@ function HarryHome() {
               />
               <TrackCard
                 href="/harry/cpp"
-                accent="orange"
+                accent="sky"
                 label="DSA with C++"
                 tagline="C++ from basics through STL, then the full DSA curriculum in one path."
                 topics={cppData.topics.length}
@@ -181,21 +181,21 @@ function HarryHome() {
 }
 
 const TRACK_STYLES = {
-  amber: {
-    glow: "from-amber-500/20 to-orange-500/10",
-    glowDot: "bg-amber-500/30",
-    badge: "bg-amber-500/15 text-amber-300 ring-amber-500/25",
-    bar: "from-amber-400 to-orange-400",
-    resumeBtn: "bg-amber-500/15 text-amber-300 ring-1 ring-amber-500/30 hover:bg-amber-500/25",
-    checkColor: "text-amber-400",
+  blue: {
+    glow: "from-blue-500/25 to-white/10",
+    glowDot: "bg-blue-400/40",
+    badge: "bg-blue-500/15 text-blue-200 ring-blue-400/25",
+    bar: "from-white to-blue-400",
+    resumeBtn: "bg-blue-500/15 text-blue-200 ring-1 ring-blue-400/30 hover:bg-blue-500/25",
+    checkColor: "text-blue-300",
   },
-  orange: {
-    glow: "from-orange-500/20 to-red-500/10",
-    glowDot: "bg-orange-500/30",
-    badge: "bg-orange-500/15 text-orange-300 ring-orange-500/25",
-    bar: "from-orange-400 to-red-400",
-    resumeBtn: "bg-orange-500/15 text-orange-300 ring-1 ring-orange-500/30 hover:bg-orange-500/25",
-    checkColor: "text-orange-400",
+  sky: {
+    glow: "from-sky-400/25 to-white/10",
+    glowDot: "bg-sky-300/40",
+    badge: "bg-sky-500/15 text-sky-200 ring-sky-400/25",
+    bar: "from-white to-sky-400",
+    resumeBtn: "bg-sky-500/15 text-sky-200 ring-1 ring-sky-400/30 hover:bg-sky-500/25",
+    checkColor: "text-sky-300",
   },
   emerald: {
     glow: "from-emerald-500/20 to-teal-500/10",

@@ -2,10 +2,11 @@ import { useEffect, useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import {
-  Sparkles, ArrowRight, Lock, BookOpen, PlayCircle,
+  ArrowRight, Lock, BookOpen, PlayCircle,
   CheckCircle2, Clock, Users, ChevronRight,
 } from "lucide-react";
 import { AccountMenu } from "@/components/account-menu";
+import { Brand } from "@/components/brand";
 import { WelcomeModal } from "@/components/welcome-modal";
 import { useAuth } from "@/hooks/use-auth";
 import { supabase } from "@/integrations/supabase/client";
@@ -19,8 +20,8 @@ import { useHarryLectures } from "@/hooks/use-harry-lectures";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "DSA Focus — Your learning dashboard" },
-      { name: "description", content: "Premium mobile-first DSA learning platform with expert-curated courses." },
+      { title: "Focused — v1 · DSA learning dashboard" },
+      { name: "description", content: "Focused — a premium mobile-first DSA learning platform with expert-curated courses." },
     ],
   }),
   component: Home,
@@ -113,10 +114,7 @@ function Home() {
       {/* Header */}
       <header className="sticky top-0 z-30 flex items-center justify-between border-b border-white/5 bg-zinc-950/90 px-4 py-3 backdrop-blur sm:px-6">
         <div className="flex items-center gap-2">
-          <div className="grid h-8 w-8 place-items-center rounded-lg bg-cyan-500/15 ring-1 ring-cyan-500/30">
-            <Sparkles className="h-4 w-4 text-cyan-400" />
-          </div>
-          <span className="font-semibold tracking-tight">DSA Focus</span>
+          <Brand size="sm" />
         </div>
         <AccountMenu />
       </header>
@@ -189,7 +187,7 @@ function Home() {
           {/* CodeWithHarry card */}
           <CourseCard
             href="/harry"
-            theme="amber"
+            theme="blue"
             banner={<HarryBanner />}
             title="Java / C++ + DSA"
             instructor="CodeWithHarry"
@@ -252,7 +250,7 @@ type StatItem = { icon: React.ElementType; value: string };
 
 type CourseCardProps = {
   href: string;
-  theme: "cyan" | "violet" | "amber";
+  theme: "cyan" | "violet" | "amber" | "blue";
   banner: React.ReactNode;
   title: string;
   instructor: string;
@@ -271,16 +269,22 @@ const THEME = {
     badge: "bg-cyan-500/10 text-cyan-300 ring-1 ring-cyan-500/20",
   },
   violet: {
-    progress: "from-violet-500 to-pink-500",
-    ring: "ring-violet-500/20",
-    btn: "from-violet-500 to-pink-500 shadow-violet-500/20 hover:shadow-violet-500/35",
-    badge: "bg-violet-500/10 text-violet-300 ring-1 ring-violet-500/20",
+    progress: "from-red-500 to-orange-400",
+    ring: "ring-red-500/20",
+    btn: "from-red-500 to-orange-500 shadow-red-500/20 hover:shadow-orange-500/35",
+    badge: "bg-red-500/10 text-orange-200 ring-1 ring-red-500/20",
   },
   amber: {
     progress: "from-amber-400 to-orange-400",
     ring: "ring-amber-500/20",
     btn: "from-amber-500 to-orange-500 shadow-amber-500/20 hover:shadow-amber-500/35",
     badge: "bg-amber-500/10 text-amber-300 ring-1 ring-amber-500/20",
+  },
+  blue: {
+    progress: "from-white to-blue-400",
+    ring: "ring-blue-500/20",
+    btn: "from-blue-500 to-blue-400 shadow-blue-500/20 hover:shadow-blue-500/35",
+    badge: "bg-blue-500/10 text-blue-200 ring-1 ring-blue-500/20",
   },
 };
 

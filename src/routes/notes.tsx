@@ -42,7 +42,7 @@ function useNotesProgress() {
 export const Route = createFileRoute("/notes")({
   head: () => ({
     meta: [
-      { title: "Notes — DSA Focus" },
+      { title: "Notes — Focused" },
       { name: "description", content: "Topic-wise DSA notes and study materials." },
     ],
   }),

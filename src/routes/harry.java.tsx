@@ -20,7 +20,7 @@ import { useHarryLectures } from "@/hooks/use-harry-lectures";
 export const Route = createFileRoute("/harry/java")({
   head: () => ({
     meta: [
-      { title: "Java + DSA — CodeWithHarry · DSA Focus" },
+      { title: "Java + DSA — CodeWithHarry · Focused" },
       { name: "description", content: "CodeWithHarry's complete Java tutorial — topic-wise." },
     ],
   }),

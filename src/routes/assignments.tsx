@@ -20,7 +20,7 @@ function readCompleted(): Record<string, boolean> {
 export const Route = createFileRoute("/assignments")({
   head: () => ({
     meta: [
-      { title: "Assignments — DSA Focus" },
+      { title: "Assignments — Focused" },
       { name: "description", content: "Practice assignments for the DSA Bootcamp." },
     ],
   }),

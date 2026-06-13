@@ -19,7 +19,7 @@ import {
 export const Route = createFileRoute("/apna")({
   head: () => ({
     meta: [
-      { title: "DSA in C++ — Apna College · DSA Focus" },
+      { title: "DSA in C++ — Apna College · Focused" },
       { name: "description", content: "Shradha Khapra's complete DSA in C++ course — organized topic-wise." },
     ],
   }),
