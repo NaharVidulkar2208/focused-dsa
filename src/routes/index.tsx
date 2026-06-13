@@ -19,8 +19,8 @@ import { useHarryLectures } from "@/hooks/use-harry-lectures";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "DSA Focus — Your learning dashboard" },
-      { name: "description", content: "Premium mobile-first DSA learning platform with expert-curated courses." },
+      { title: "Focused — v1 · DSA learning dashboard" },
+      { name: "description", content: "Focused — a premium mobile-first DSA learning platform with expert-curated courses." },
     ],
   }),
   component: Home,
