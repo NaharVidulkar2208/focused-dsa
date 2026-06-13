@@ -6,7 +6,7 @@ import { getLecturesWithNotes, type HarryTrack } from "@/lib/harry-data";
 export const Route = createFileRoute("/harry/notes")({
   head: () => ({
     meta: [
-      { title: "Notes — CodeWithHarry · DSA Focus" },
+      { title: "Notes — CodeWithHarry · Focused" },
       { name: "description", content: "Curated notes, PDFs and study material for Java, C++ and DSA." },
     ],
   }),

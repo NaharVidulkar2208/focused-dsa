@@ -54,7 +54,7 @@ export const fetchVideoDescription = createServerFn({ method: "GET" })
       if (process.env.NODE_ENV === "development" && !devWarningShown) {
         // eslint-disable-next-line no-console
         console.warn(
-          "[DSA Focus] YOUTUBE_API_KEY is not set. " +
+          "[Focused] YOUTUBE_API_KEY is not set. " +
             "Video description fetching is disabled. " +
             "The app will use cached / static content instead. " +
             "See .env.example for setup instructions."
