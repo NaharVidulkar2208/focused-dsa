@@ -69,17 +69,14 @@ export function WelcomeModal() {
             <div className="absolute inset-0 pointer-events-none">
               <div className="absolute -top-8 left-1/2 h-32 w-32 -translate-x-1/2 rounded-full bg-cyan-400/20 blur-3xl" />
             </div>
-            <div className="relative flex items-center gap-2.5">
-              <div className="grid h-9 w-9 place-items-center rounded-xl bg-cyan-500/20 ring-1 ring-cyan-500/40">
-                <Sparkles className="h-4.5 w-4.5 text-cyan-400" />
-              </div>
-              <span className="text-base font-semibold tracking-tight text-zinc-100">DSA Focus</span>
+            <div className="relative">
+              <Brand size="md" />
             </div>
-            <h2 className="relative mt-3 text-xl font-bold tracking-tight text-zinc-50">
+            <h2 className="relative mt-4 text-xl font-bold tracking-tight text-zinc-50">
               Welcome! How would you<br className="sm:hidden" /> like to continue?
             </h2>
             <p className="relative mt-1.5 text-sm text-zinc-400">
-              Two expert DSA courses — Kunal Kushwaha &amp; Shradha Khapra — organized, tracked, and mobile-ready.
+              Three expert tracks — Kunal Kushwaha, Apna College &amp; CodeWithHarry — organized, tracked, and mobile-ready.
             </p>
           </div>
 
