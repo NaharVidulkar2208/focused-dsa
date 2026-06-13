@@ -250,7 +250,7 @@ type StatItem = { icon: React.ElementType; value: string };
 
 type CourseCardProps = {
   href: string;
-  theme: "cyan" | "violet" | "amber";
+  theme: "cyan" | "violet" | "amber" | "blue";
   banner: React.ReactNode;
   title: string;
   instructor: string;
@@ -269,16 +269,22 @@ const THEME = {
     badge: "bg-cyan-500/10 text-cyan-300 ring-1 ring-cyan-500/20",
   },
   violet: {
-    progress: "from-violet-500 to-pink-500",
-    ring: "ring-violet-500/20",
-    btn: "from-violet-500 to-pink-500 shadow-violet-500/20 hover:shadow-violet-500/35",
-    badge: "bg-violet-500/10 text-violet-300 ring-1 ring-violet-500/20",
+    progress: "from-red-500 to-orange-400",
+    ring: "ring-red-500/20",
+    btn: "from-red-500 to-orange-500 shadow-red-500/20 hover:shadow-orange-500/35",
+    badge: "bg-red-500/10 text-orange-200 ring-1 ring-red-500/20",
   },
   amber: {
     progress: "from-amber-400 to-orange-400",
     ring: "ring-amber-500/20",
     btn: "from-amber-500 to-orange-500 shadow-amber-500/20 hover:shadow-amber-500/35",
     badge: "bg-amber-500/10 text-amber-300 ring-1 ring-amber-500/20",
+  },
+  blue: {
+    progress: "from-white to-blue-400",
+    ring: "ring-blue-500/20",
+    btn: "from-blue-500 to-blue-400 shadow-blue-500/20 hover:shadow-blue-500/35",
+    badge: "bg-blue-500/10 text-blue-200 ring-1 ring-blue-500/20",
   },
 };
 
