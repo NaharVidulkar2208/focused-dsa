@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "@tanstack/react-router";
 import {
-  Sparkles, LogIn, UserPlus, Ghost,
+  LogIn, UserPlus, Ghost,
   CheckCircle2, BookOpen, ClipboardList, PlayCircle,
 } from "lucide-react";
 import { useAuth } from "@/hooks/use-auth";
+import { Brand } from "@/components/brand";
 
 // Persists within the current tab session (including refreshes).
 // Cleared when the tab or browser is closed — so new sessions see the modal again
 // until the user authenticates (at which point user!=null and modal never shows).
-const SESSION_MODAL_KEY = "dsa-focus.modal-seen";
+const SESSION_MODAL_KEY = "focused.modal-seen";
 
 export function WelcomeModal() {
   const { user, guest, enterGuest, loading } = useAuth();
