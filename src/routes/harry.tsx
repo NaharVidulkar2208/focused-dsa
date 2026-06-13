@@ -128,7 +128,7 @@ function HarryHome() {
             <div className="grid gap-4 sm:grid-cols-2">
               <TrackCard
                 href="/harry/java"
-                accent="amber"
+                accent="blue"
                 label="DSA with Java"
                 tagline="Core Java foundations followed by the full DSA curriculum in one path."
                 topics={javaData.topics.length}
@@ -140,7 +140,7 @@ function HarryHome() {
               />
               <TrackCard
                 href="/harry/cpp"
-                accent="orange"
+                accent="sky"
                 label="DSA with C++"
                 tagline="C++ from basics through STL, then the full DSA curriculum in one path."
                 topics={cppData.topics.length}
