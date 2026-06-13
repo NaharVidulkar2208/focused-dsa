@@ -181,21 +181,21 @@ function HarryHome() {
 }
 
 const TRACK_STYLES = {
-  amber: {
-    glow: "from-amber-500/20 to-orange-500/10",
-    glowDot: "bg-amber-500/30",
-    badge: "bg-amber-500/15 text-amber-300 ring-amber-500/25",
-    bar: "from-amber-400 to-orange-400",
-    resumeBtn: "bg-amber-500/15 text-amber-300 ring-1 ring-amber-500/30 hover:bg-amber-500/25",
-    checkColor: "text-amber-400",
+  blue: {
+    glow: "from-blue-500/25 to-white/10",
+    glowDot: "bg-blue-400/40",
+    badge: "bg-blue-500/15 text-blue-200 ring-blue-400/25",
+    bar: "from-white to-blue-400",
+    resumeBtn: "bg-blue-500/15 text-blue-200 ring-1 ring-blue-400/30 hover:bg-blue-500/25",
+    checkColor: "text-blue-300",
   },
-  orange: {
-    glow: "from-orange-500/20 to-red-500/10",
-    glowDot: "bg-orange-500/30",
-    badge: "bg-orange-500/15 text-orange-300 ring-orange-500/25",
-    bar: "from-orange-400 to-red-400",
-    resumeBtn: "bg-orange-500/15 text-orange-300 ring-1 ring-orange-500/30 hover:bg-orange-500/25",
-    checkColor: "text-orange-400",
+  sky: {
+    glow: "from-sky-400/25 to-white/10",
+    glowDot: "bg-sky-300/40",
+    badge: "bg-sky-500/15 text-sky-200 ring-sky-400/25",
+    bar: "from-white to-sky-400",
+    resumeBtn: "bg-sky-500/15 text-sky-200 ring-1 ring-sky-400/30 hover:bg-sky-500/25",
+    checkColor: "text-sky-300",
   },
   emerald: {
     glow: "from-emerald-500/20 to-teal-500/10",
