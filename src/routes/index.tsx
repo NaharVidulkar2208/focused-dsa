@@ -2,10 +2,11 @@ import { useEffect, useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import {
-  Sparkles, ArrowRight, Lock, BookOpen, PlayCircle,
+  ArrowRight, Lock, BookOpen, PlayCircle,
   CheckCircle2, Clock, Users, ChevronRight,
 } from "lucide-react";
 import { AccountMenu } from "@/components/account-menu";
+import { Brand } from "@/components/brand";
 import { WelcomeModal } from "@/components/welcome-modal";
 import { useAuth } from "@/hooks/use-auth";
 import { supabase } from "@/integrations/supabase/client";
