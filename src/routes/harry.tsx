@@ -69,11 +69,11 @@ function HarryHome() {
               className="h-full w-full object-cover object-center opacity-25"
               onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-amber-950/60 via-zinc-950/80 to-zinc-950" />
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-950/70 via-zinc-950/85 to-zinc-950" />
           </div>
           <div className="relative mx-auto max-w-3xl px-4 py-10 sm:py-14">
-            <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-[11px] font-medium text-amber-300 mb-4">
-              <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
+            <div className="inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-500/10 px-3 py-1 text-[11px] font-medium text-blue-200 mb-4">
+              <span className="h-1.5 w-1.5 rounded-full bg-blue-300 animate-pulse" />
               CodeWithHarry
             </div>
             <h1 className="text-2xl font-bold tracking-tight text-zinc-50 sm:text-3xl">
@@ -106,7 +106,7 @@ function HarryHome() {
               <div className="mt-4 flex items-center gap-3">
                 <div className="h-1.5 w-40 overflow-hidden rounded-full bg-white/10">
                   <div
-                    className="h-full rounded-full bg-gradient-to-r from-amber-400 to-zinc-300 transition-all"
+                    className="h-full rounded-full bg-gradient-to-r from-white to-blue-400 transition-all"
                     style={{ width: `${Math.round((doneAll / totalAll) * 100)}%` }}
                   />
                 </div>
