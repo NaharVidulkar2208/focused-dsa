@@ -114,10 +114,7 @@ function Home() {
       {/* Header */}
       <header className="sticky top-0 z-30 flex items-center justify-between border-b border-white/5 bg-zinc-950/90 px-4 py-3 backdrop-blur sm:px-6">
         <div className="flex items-center gap-2">
-          <div className="grid h-8 w-8 place-items-center rounded-lg bg-cyan-500/15 ring-1 ring-cyan-500/30">
-            <Sparkles className="h-4 w-4 text-cyan-400" />
-          </div>
-          <span className="font-semibold tracking-tight">DSA Focus</span>
+          <Brand size="sm" />
         </div>
         <AccountMenu />
       </header>
