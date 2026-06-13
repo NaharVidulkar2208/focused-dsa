@@ -187,7 +187,7 @@ function Home() {
           {/* CodeWithHarry card */}
           <CourseCard
             href="/harry"
-            theme="amber"
+            theme="blue"
             banner={<HarryBanner />}
             title="Java / C++ + DSA"
             instructor="CodeWithHarry"
