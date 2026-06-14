@@ -63,6 +63,14 @@ function Home() {
   const javaData = useHarryLectures("java");
   const cppData = useHarryLectures("cpp");
 
+  // Client-only greeting — avoids SSR/CSR hydration mismatch (Date depends on time).
+  const [greeting, setGreeting] = useState<string>(() =>
+    displayName ? `Hello, ${displayName} 👋` : "Welcome 👋",
+  );
+  useEffect(() => {
+    setGreeting(getGreeting(displayName));
+  }, [displayName]);
+
   const kunalGuestDone = useMemo(() => {
     try {
       const raw = localStorage.getItem("lectures-guest-progress");
@@ -96,7 +104,6 @@ function Home() {
   const harryTotal = javaData.lectures.length + cppData.lectures.length;
   const harryPct = harryTotal > 0 ? Math.round((harryDone / harryTotal) * 100) : 0;
 
-  const greeting = getGreeting(displayName);
   const subtitle = user
     ? "Ready to continue your learning journey?"
     : guest
