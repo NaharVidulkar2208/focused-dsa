@@ -15,7 +15,6 @@ import { Route as HarryRouteImport } from './routes/harry'
 import { Route as CourseRouteImport } from './routes/course'
 import { Route as AssignmentsRouteImport } from './routes/assignments'
 import { Route as ApnaRouteImport } from './routes/apna'
-import { Route as SplatRouteImport } from './routes/$'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as HarryNotesRouteImport } from './routes/harry.notes'
 import { Route as HarryJavaRouteImport } from './routes/harry.java'
@@ -53,11 +52,6 @@ const AssignmentsRoute = AssignmentsRouteImport.update({
 const ApnaRoute = ApnaRouteImport.update({
   id: '/apna',
   path: '/apna',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SplatRoute = SplatRouteImport.update({
-  id: '/$',
-  path: '/$',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -103,7 +97,6 @@ const HarryCppLectureIdRoute = HarryCppLectureIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/$': typeof SplatRoute
   '/apna': typeof ApnaRouteWithChildren
   '/assignments': typeof AssignmentsRoute
   '/course': typeof CourseRouteWithChildren
@@ -120,7 +113,6 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/$': typeof SplatRoute
   '/apna': typeof ApnaRouteWithChildren
   '/assignments': typeof AssignmentsRoute
   '/course': typeof CourseRouteWithChildren
@@ -138,7 +130,6 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/$': typeof SplatRoute
   '/apna': typeof ApnaRouteWithChildren
   '/assignments': typeof AssignmentsRoute
   '/course': typeof CourseRouteWithChildren
@@ -157,7 +148,6 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/$'
     | '/apna'
     | '/assignments'
     | '/course'
@@ -174,7 +164,6 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/$'
     | '/apna'
     | '/assignments'
     | '/course'
@@ -191,7 +180,6 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
-    | '/$'
     | '/apna'
     | '/assignments'
     | '/course'
@@ -209,7 +197,6 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  SplatRoute: typeof SplatRoute
   ApnaRoute: typeof ApnaRouteWithChildren
   AssignmentsRoute: typeof AssignmentsRoute
   CourseRoute: typeof CourseRouteWithChildren
@@ -260,13 +247,6 @@ declare module '@tanstack/react-router' {
       path: '/apna'
       fullPath: '/apna'
       preLoaderRoute: typeof ApnaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/$': {
-      id: '/$'
-      path: '/$'
-      fullPath: '/$'
-      preLoaderRoute: typeof SplatRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -389,7 +369,6 @@ const HarryRouteWithChildren = HarryRoute._addFileChildren(HarryRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  SplatRoute: SplatRoute,
   ApnaRoute: ApnaRouteWithChildren,
   AssignmentsRoute: AssignmentsRoute,
   CourseRoute: CourseRouteWithChildren,
