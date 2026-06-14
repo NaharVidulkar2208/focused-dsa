@@ -29,8 +29,10 @@ function redirectLegacyIndexPath(request: Request): Response | null {
   const url = new URL(request.url);
   if (url.pathname !== "/index") return null;
 
-  url.pathname = "/";
-  return Response.redirect(url, 302);
+  return new Response(null, {
+    status: 302,
+    headers: { Location: `/${url.search}` },
+  });
 }
 
 function isCatastrophicSsrErrorBody(body: string, responseStatus: number): boolean {
