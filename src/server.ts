@@ -25,6 +25,16 @@ function brandedErrorResponse(): Response {
   });
 }
 
+function redirectLegacyIndexPath(request: Request): Response | null {
+  const url = new URL(request.url);
+  if (url.pathname !== "/index") return null;
+
+  return new Response(null, {
+    status: 302,
+    headers: { Location: `/${url.search}` },
+  });
+}
+
 function isCatastrophicSsrErrorBody(body: string, responseStatus: number): boolean {
   let payload: unknown;
   try {
@@ -69,6 +79,9 @@ async function normalizeCatastrophicSsrResponse(response: Response): Promise<Res
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
     try {
+      const redirectResponse = redirectLegacyIndexPath(request);
+      if (redirectResponse) return redirectResponse;
+
       const handler = await getServerEntry();
       const response = await handler.fetch(request, env, ctx);
       return await normalizeCatastrophicSsrResponse(response);
