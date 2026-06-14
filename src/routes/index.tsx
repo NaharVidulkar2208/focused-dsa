@@ -315,12 +315,15 @@ function CourseCard({
       {/* Body */}
       <div className="p-4 sm:p-5">
         <div className="flex items-start justify-between gap-2">
-          <div>
-            <h3 className="font-semibold text-zinc-100">{title}</h3>
-            <p className="mt-0.5 text-xs text-zinc-500">
-              {instructor} · <span className={`font-medium ${t.badge.split(" ")[1]}`}>{language}</span>
+          <div className="min-w-0">
+            <h3 className="truncate font-semibold text-zinc-100">{title}</h3>
+            <p className="mt-1 text-[12px] text-zinc-300">
+              <span className="font-semibold text-zinc-100">{instructor}</span>
+              <span className="text-zinc-500"> · </span>
+              <span className={`font-medium ${t.badge.split(" ")[1]}`}>{language}</span>
             </p>
           </div>
+
           <span className={`shrink-0 rounded-full px-2.5 py-1 text-[10px] font-semibold ${t.badge}`}>
             {pct}%
           </span>
