@@ -3,8 +3,10 @@ import { QueryClient, QueryClientProvider, useQueryClient } from "@tanstack/reac
 import {
   Outlet,
   Link,
+  Navigate,
   createRootRouteWithContext,
   useRouter,
+  useRouterState,
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
@@ -15,6 +17,12 @@ import { AuthProvider } from "@/hooks/use-auth";
 import appCss from "../styles.css?url";
 
 function NotFoundComponent() {
+  const pathname = useRouterState({ select: (state) => state.location.pathname });
+
+  if (pathname === "/index") {
+    return <Navigate to="/" replace />;
+  }
+
   return (
     <div className="flex min-h-screen items-center justify-center px-4">
       <div className="max-w-md text-center">
