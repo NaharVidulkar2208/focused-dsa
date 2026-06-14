@@ -63,6 +63,14 @@ function Home() {
   const javaData = useHarryLectures("java");
   const cppData = useHarryLectures("cpp");
 
+  // Client-only greeting — avoids SSR/CSR hydration mismatch (Date depends on time).
+  const [greeting, setGreeting] = useState<string>(() =>
+    displayName ? `Hello, ${displayName} 👋` : "Welcome 👋",
+  );
+  useEffect(() => {
+    setGreeting(getGreeting(displayName));
+  }, [displayName]);
+
   const kunalGuestDone = useMemo(() => {
     try {
       const raw = localStorage.getItem("lectures-guest-progress");
@@ -96,7 +104,6 @@ function Home() {
   const harryTotal = javaData.lectures.length + cppData.lectures.length;
   const harryPct = harryTotal > 0 ? Math.round((harryDone / harryTotal) * 100) : 0;
 
-  const greeting = getGreeting(displayName);
   const subtitle = user
     ? "Ready to continue your learning journey?"
     : guest
@@ -308,12 +315,15 @@ function CourseCard({
       {/* Body */}
       <div className="p-4 sm:p-5">
         <div className="flex items-start justify-between gap-2">
-          <div>
-            <h3 className="font-semibold text-zinc-100">{title}</h3>
-            <p className="mt-0.5 text-xs text-zinc-500">
-              {instructor} · <span className={`font-medium ${t.badge.split(" ")[1]}`}>{language}</span>
+          <div className="min-w-0">
+            <h3 className="truncate font-semibold text-zinc-100">{title}</h3>
+            <p className="mt-1 text-[12px] text-zinc-300">
+              <span className="font-semibold text-zinc-100">{instructor}</span>
+              <span className="text-zinc-500"> · </span>
+              <span className={`font-medium ${t.badge.split(" ")[1]}`}>{language}</span>
             </p>
           </div>
+
           <span className={`shrink-0 rounded-full px-2.5 py-1 text-[10px] font-semibold ${t.badge}`}>
             {pct}%
           </span>
