@@ -123,10 +123,16 @@ function Home() {
         <div className="flex items-center gap-2">
           <Brand size="sm" />
         </div>
-        <AccountMenu />
-      </header>
+        <nav className="hidden lg:flex items-center gap-6 text-sm text-zinc-400">
+  <Link to="/" className="hover:text-zinc-100 transition">Home</Link>
+  <Link to="/course" className="hover:text-zinc-100 transition">Kunal</Link>
+  <Link to="/apna" className="hover:text-zinc-100 transition">Apna</Link>
+  <Link to="/harry" className="hover:text-zinc-100 transition">Harry</Link>
+</nav>
+<AccountMenu />
+</header>
 
-      <main className="max-w-2xl px-4 pb-20 pt-8 sm:px-6 lg:max-w-5xl">
+      <main className="mx-auto max-w-2xl px-4 pb-20 pt-8 sm:px-6 lg:max-w-5xl">
 
         {/* ── Greeting ──────────────────────────────────────────────────────── */}
         <section className="mb-10">
@@ -152,7 +158,7 @@ function Home() {
         {/* ── Available Courses ──────────────────────────────────────────── */}
         <SectionHeader label="Available Courses" count={3} />
 
-        <div className="mt-3 space-y-4 lg:grid lg:grid-cols-2 lg:gap-6 lg:space-y-0">
+        <div className="mt-3 space-y-4 lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-6 lg:space-y-0>
           {/* Kunal Kushwaha card */}
           <CourseCard
             href="/course"
