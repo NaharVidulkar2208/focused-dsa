@@ -126,7 +126,7 @@ function Home() {
         <AccountMenu />
       </header>
 
-      <main className="mx-auto max-w-2xl px-4 pb-20 pt-8 sm:px-6">
+      <main className="max-w-2xl px-4 pb-20 pt-8 sm:px-6 lg:max-w-5xl">
 
         {/* ── Greeting ──────────────────────────────────────────────────────── */}
         <section className="mb-10">
@@ -152,7 +152,7 @@ function Home() {
         {/* ── Available Courses ──────────────────────────────────────────── */}
         <SectionHeader label="Available Courses" count={3} />
 
-        <div className="mt-3 space-y-4">
+        <div className="mt-3 space-y-4 lg:grid lg:grid-cols-2 lg:gap-6 lg:space-y-0">
           {/* Kunal Kushwaha card */}
           <CourseCard
             href="/course"
