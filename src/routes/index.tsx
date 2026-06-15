@@ -119,21 +119,22 @@ function Home() {
       <WelcomeModal />
 
       {/* Header */}
-      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-white/5 bg-zinc-950/90 px-4 py-3 backdrop-blur sm:px-6">
+      <header className="sticky top-0 z-30 flex items-center justify-between border-b border-white/5 bg-zinc-950/90 px-4 py-3 backdrop-blur sm:px-6 lg:px-12">
         <div className="flex items-center gap-2">
           <Brand size="sm" />
         </div>
+        
         <nav className="hidden lg:flex items-center gap-6 text-sm text-zinc-400">
-  <Link to="/" className="hover:text-zinc-100 transition">Home</Link>
-  <Link to="/course" className="hover:text-zinc-100 transition">Kunal</Link>
-  <Link to="/apna" className="hover:text-zinc-100 transition">Apna</Link>
-  <Link to="/harry" className="hover:text-zinc-100 transition">Harry</Link>
-</nav>
-<AccountMenu />
-</header>
+          <Link to="/" className="hover:text-zinc-100 transition">Home</Link>
+          <Link to="/course" className="hover:text-zinc-100 transition">Kunal</Link>
+          <Link to="/apna" className="hover:text-zinc-100 transition">Apna</Link>
+          <Link to="/harry" className="hover:text-zinc-100 transition">Harry</Link>
+        </nav>
 
-      <main className="mx-auto max-w-2xl px-4 pb-20 pt-8 sm:px-6 lg:px-12">
+        <AccountMenu />
+      </header>
 
+      <main className="mx-auto max-w-2xl px-4 pb-20 pt-8 sm:px-6 lg:max-w-5xl">
         {/* ── Greeting ──────────────────────────────────────────────────────── */}
         <section className="mb-10">
           <h1 className="text-2xl font-bold tracking-tight text-zinc-100 sm:text-3xl">
