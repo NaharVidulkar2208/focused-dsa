@@ -132,7 +132,7 @@ function Home() {
 <AccountMenu />
 </header>
 
-      <main className="mx-auto max-w-2xl px-4 pb-20 pt-8 sm:px-6 lg:max-w-5xl">
+      <main className="mx-auto max-w-2xl px-4 pb-20 pt-8 sm:px-6 lg:px-12">
 
         {/* ── Greeting ──────────────────────────────────────────────────────── */}
         <section className="mb-10">
