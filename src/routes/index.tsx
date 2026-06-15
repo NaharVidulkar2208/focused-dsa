@@ -494,4 +494,4 @@ function ComingSoonCard({
       </div>
     </div>
   );
-}
+          }
