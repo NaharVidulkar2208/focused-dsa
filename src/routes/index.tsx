@@ -159,7 +159,7 @@ function Home() {
         {/* ── Available Courses ──────────────────────────────────────────── */}
         <SectionHeader label="Available Courses" count={3} />
 
-        <div className="mt-3 space-y-4 lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-6 lg:space-y-0>
+        <div className="mt-3 space-y-4 lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-6 lg:space-y-0">
           {/* Kunal Kushwaha card */}
           <CourseCard
             href="/course"
