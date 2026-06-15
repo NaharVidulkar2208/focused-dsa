@@ -88,7 +88,7 @@ function CourseLayout() {
   const { user, guest } = useAuth();
   const navigate = useNavigate();
   const params = useParams({ strict: false }) as { lectureId?: string };
-  const { data: lectures = [], isLoading } = useLectures();
+  const { data: lectures = [], isLoading, error: lecturesError } = useLectures();
   const { data: progress = [] } = useProgress(user?.id);
   const { guestCompleted, toggleGuest } = useGuestLectureProgress();
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -104,6 +104,7 @@ function CourseLayout() {
     ? progress.filter((p) => p.completed).length
     : guestCompleted.size;
   const pct = lectures.length ? Math.round((completedCount / lectures.length) * 100) : 0;
+  const courseUnavailable = !isLoading && lectures.length === 0;
 
   useEffect(() => {
     if (params.lectureId || !lectures.length) return;
@@ -176,6 +177,11 @@ function CourseLayout() {
         {isLoading && (
           <div className="grid place-items-center py-8">
             <Loader2 className="h-4 w-4 animate-spin text-zinc-500" />
+          </div>
+        )}
+        {courseUnavailable && (
+          <div className="px-4 py-8 text-center text-xs text-zinc-500">
+            Course lectures are unavailable in this preview.
           </div>
         )}
         {filtered.map((l) => {
@@ -254,7 +260,19 @@ function CourseLayout() {
           </div>
           <AccountMenu />
         </div>
-        {params.lectureId ? (
+        {courseUnavailable ? (
+          <div className="grid place-items-center px-6 py-32 text-center">
+            <div className="max-w-sm">
+              <PlayCircle className="mx-auto h-10 w-10 text-cyan-400" />
+              <h1 className="mt-3 text-base font-semibold text-zinc-200">Course content unavailable</h1>
+              <p className="mt-2 text-sm text-zinc-500">
+                {lecturesError
+                  ? "The course data service could not be reached. Try refreshing the preview."
+                  : "No lectures are available for this course yet."}
+              </p>
+            </div>
+          </div>
+        ) : params.lectureId ? (
           <LectureView
             lectureId={params.lectureId}
             lectures={lectures}

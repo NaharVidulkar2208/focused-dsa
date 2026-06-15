@@ -2,11 +2,40 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Database } from './types';
 
+type SupabaseClient = ReturnType<typeof createClient<Database>>;
+
+function getServerEnv(name: string): string | undefined {
+  return typeof process !== 'undefined' ? process.env?.[name] : undefined;
+}
+
+function createUnavailableSupabaseClient(): SupabaseClient {
+  const error = new Error('Cloud connection is unavailable in this preview.');
+  const response = Promise.resolve({ data: [], error });
+  const builder = Object.assign(response, {
+    select: () => builder,
+    order: () => builder,
+    upsert: () => builder,
+    eq: () => builder,
+    single: () => Promise.resolve({ data: null, error }),
+  });
+
+  return {
+    auth: {
+      onAuthStateChange: () => ({ data: { subscription: { unsubscribe: () => {} } } }),
+      getSession: async () => ({ data: { session: null }, error: null }),
+      signInWithPassword: async () => ({ data: { user: null, session: null }, error }),
+      signUp: async () => ({ data: { user: null, session: null }, error }),
+      signOut: async () => ({ error: null }),
+    },
+    from: () => builder,
+  } as unknown as SupabaseClient;
+}
+
 function createSupabaseClient() {
   // Use import.meta.env for client-side (Vite build-time replacement)
   // Fall back to process.env for SSR (server-side rendering)
-  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
-  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY || process.env.SUPABASE_PUBLISHABLE_KEY;
+  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || getServerEnv('SUPABASE_URL');
+  const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY || getServerEnv('SUPABASE_PUBLISHABLE_KEY');
 
   if (!SUPABASE_URL || !SUPABASE_PUBLISHABLE_KEY) {
     const missing = [
@@ -15,7 +44,7 @@ function createSupabaseClient() {
     ];
     const message = `Missing Supabase environment variable(s): ${missing.join(', ')}. Connect Supabase in Lovable Cloud.`;
     console.error(`[Supabase] ${message}`);
-    throw new Error(message);
+    return createUnavailableSupabaseClient();
   }
 
   return createClient<Database>(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
@@ -27,11 +56,11 @@ function createSupabaseClient() {
   });
 }
 
-let _supabase: ReturnType<typeof createSupabaseClient> | undefined;
+let _supabase: SupabaseClient | undefined;
 
 // Import the supabase client like this:
 // import { supabase } from "@/integrations/supabase/client";
-export const supabase = new Proxy({} as ReturnType<typeof createSupabaseClient>, {
+export const supabase = new Proxy({} as SupabaseClient, {
   get(_, prop, receiver) {
     if (!_supabase) _supabase = createSupabaseClient();
     return Reflect.get(_supabase, prop, receiver);
