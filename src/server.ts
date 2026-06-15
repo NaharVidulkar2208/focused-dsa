@@ -25,13 +25,26 @@ function brandedErrorResponse(): Response {
   });
 }
 
-function redirectLegacyIndexPath(request: Request): Response | null {
+const LEGACY_ROUTE_REDIRECTS: Record<string, string> = {
+  "/index": "/",
+  "/index/": "/",
+  "/signup": "/login?mode=signup",
+  "/guest": "/",
+};
+
+function redirectLegacyRoutePath(request: Request): Response | null {
   const url = new URL(request.url);
-  if (url.pathname !== "/index") return null;
+  const targetPath = LEGACY_ROUTE_REDIRECTS[url.pathname];
+  if (!targetPath) return null;
+
+  const target = new URL(targetPath, url.origin);
+  url.searchParams.forEach((value, key) => {
+    if (!target.searchParams.has(key)) target.searchParams.append(key, value);
+  });
 
   return new Response(null, {
     status: 302,
-    headers: { Location: `/${url.search}` },
+    headers: { Location: `${target.pathname}${target.search}` },
   });
 }
 
@@ -79,7 +92,7 @@ async function normalizeCatastrophicSsrResponse(response: Response): Promise<Res
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
     try {
-      const redirectResponse = redirectLegacyIndexPath(request);
+      const redirectResponse = redirectLegacyRoutePath(request);
       if (redirectResponse) return redirectResponse;
 
       const handler = await getServerEntry();
