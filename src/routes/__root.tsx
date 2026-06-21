@@ -5,6 +5,7 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+  useRouterState,
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
@@ -14,14 +15,45 @@ import { AuthProvider } from "@/hooks/use-auth";
 
 import appCss from "../styles.css?url";
 
+const LEGACY_CLIENT_REDIRECTS: Record<string, string> = {
+  "/index": "/",
+  "/index/": "/",
+  "/signup": "/login?mode=signup",
+  "/guest": "/",
+};
+
 function NotFoundComponent() {
+  const pathname = useRouterState({ select: (state) => state.location.pathname });
+  const targetPath = LEGACY_CLIENT_REDIRECTS[pathname];
+
+  useEffect(() => {
+    if (!targetPath || typeof window === "undefined") return;
+    const current = new URL(window.location.href);
+    const target = new URL(targetPath, current.origin);
+    current.searchParams.forEach((value, key) => {
+      if (!target.searchParams.has(key)) target.searchParams.append(key, value);
+    });
+    window.location.replace(`${target.pathname}${target.search}`);
+  }, [targetPath]);
+
+  if (targetPath) {
+    return (
+      <div className="flex min-h-screen items-center justify-center px-4 text-center">
+        <div className="max-w-md">
+          <h1 className="text-xl font-semibold">Opening Focused…</h1>
+          <p className="mt-2 text-sm text-muted-foreground">Redirecting to the correct page.</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="flex min-h-screen items-center justify-center px-4">
       <div className="max-w-md text-center">
         <h1 className="text-7xl font-bold text-gradient-emerald">404</h1>
-        <h2 className="mt-4 text-xl font-semibold">Lecture not found</h2>
+        <h2 className="mt-4 text-xl font-semibold">Page not found</h2>
         <p className="mt-2 text-sm text-muted-foreground">
-          That page isn't in the syllabus.
+          That page isn't in the syllabus anymore.
         </p>
         <div className="mt-6">
           <Link
